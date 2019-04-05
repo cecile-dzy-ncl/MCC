@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>fleche_boutique</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0001 0 40 0 40 40 0.0001 40"></polygon>
+    </defs>
+    <g id="iGive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-384.000000, -3080.000000)">
+            <g id="LV" transform="translate(-2.000000, 34.000000)">
+                <g id="Footer" transform="translate(0.000000, 813.000000)">
+                    <g id="Group" transform="translate(0.000000, 1857.000000)">
+                        <g id="Group-13" transform="translate(386.000000, 376.000000)">
+                            <g id="fleche_boutique">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M30.7791,21.558 L24.0841,28.253 C23.6631,28.674 23.1161,28.884 22.5261,28.884 C21.9371,28.884 21.3891,28.674 20.9681,28.253 C20.1261,27.411 20.1261,26.021 20.9681,25.137 L23.9161,22.189 L10.7371,22.189 C9.5161,22.189 8.5471,21.221 8.5471,20 C8.5471,18.779 9.5161,17.81 10.7371,17.81 L23.9581,17.81 L21.0101,14.863 C20.1681,14.021 20.1681,12.632 21.0101,11.747 C21.8531,10.905 23.2421,10.905 24.1261,11.747 L30.8211,18.442 C31.6631,19.326 31.6631,20.674 30.7791,21.558 M20.0001,0 C8.9681,0 0.0001,8.969 0.0001,20 C0.0001,31.032 8.9681,40 20.0001,40 C31.0311,40 40.0001,31.032 40.0001,20 C40.0001,8.969 31.0311,0 20.0001,0" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

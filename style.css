@@ -161,6 +161,10 @@ a:hover {
   width: 559px;
 }
 
+.projects-row-1 .project-description p {
+  margin-top: 30px;
+}
+
 .projects-row-1 img {
   height: 330px;
 }
@@ -189,10 +193,6 @@ a:hover {
   width: 366px;
 }
 
-.projects-row-2 .project-description {
-  justify-content: start;
-}
-
 .projects-row-2 img {
   height: 330px;
   width: 366px;
@@ -208,13 +208,13 @@ a:hover {
   height: 330px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
 
 .project-description p {
-  margin: 25px 39px;
+  margin: 0 38px;
 }
 
 #project-title {
@@ -253,9 +253,44 @@ a:hover {
 
 .help-content {
   width: 960px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.help-shop a{
+  color: #fff;
+}
+
+.help-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help-btn {
+  margin: 0 auto;
+  padding: 6px 47px;
+  border-radius: 5px;
+  border: 1px #fff solid;
+  color: #FFFFFF;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.07px;
+  line-height: 32px;
+  text-align: center;
 }
 
 /*COLLECTE PERSO*/
+
+.banner-collecte-perso {
+  height: 412px;
+  background-image: url(images/image_header_collecte_personnelle@2x.png);
+  background-size: cover;
+}
 
 .wrapper-description {
   width: 100%;
@@ -265,9 +300,104 @@ a:hover {
   align-items: center;
   text-align: center;
   color: #000;
-  margin: 50px 0;
 }
 
 .wrapper-description-content {
   width: 960px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
+.wrapper-description-content h3, h4, p {
+  margin: 0;
+}
+
+hr {
+  width: 100%;
+  border: 0.8px #f0f0f0 solid;
+}
+
+.project-btn-fb {
+  margin: 0 auto;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: #0066DC;
+  color: #FFFFFF;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.07px;
+  line-height: 32px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-description-cp {
+  height: 375px;
+}
+
+.project-btn-ds {
+  margin-bottom: 71px;
+}
+
+.coup-coeur {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.campagnes {
+
+}
+
+.campagne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 513px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.camp-photo {
+  height: 100%;
+  width: 50%;
+}
+
+.camp-photo img {
+  height: 100%;
+  width: 100%;
+}
+.camp-description {
+  height: 100%;
+  width: 50%;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.camp-description p {
+  margin: 0 45px;
+}
+
+.camp-btn {
+  margin: 0 auto;
+  padding: 6px 30px;
+  border-radius: 5px;
+  background-color: #E40520;
+  color: #FFFFFF;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.07px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
