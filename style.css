@@ -42,8 +42,13 @@ p{
   line-height: 24px;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .header {
@@ -464,4 +469,91 @@ hr {
 
 .banner-association-chiffres h3 {
   margin: 0;
+}
+
+/*CONSEILS & OUTILS*/
+
+.banner-conseils-outils {
+  background-image: url(images/image_header_conseil_collecte@2x.png);
+  background-size: cover;
+}
+
+.conseils-outils {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.conseil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.conseil-photo {
+  height: 100%;
+  width: 30%;
+  overflow: hidden;
+}
+
+.conseil-photo img {
+  height: auto;
+  width: 100%;
+}
+.conseil-description {
+  height: 100%;
+  width: 70%;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.conseil-description p {
+  margin: 0 45px;
+}
+
+.conseil-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 220px;
+}
+
+.conseil:first-child {
+  height: 600px;
+}
+
+.conseil:first-child .conseil-text {
+  height: 460px;
+}
+
+.conseil:nth-child(2) {
+  height: 400px;
+}
+
+.conseil:nth-child(2) .conseil-text {
+  height: 260px;
+}
+
+.camp-btn {
+  margin: 0 auto;
+  padding: 6px 30px;
+  border-radius: 5px;
+  background-color: #E40520;
+  color: #FFFFFF;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.07px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
 }
