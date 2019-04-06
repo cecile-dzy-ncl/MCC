@@ -94,6 +94,11 @@ a:hover {
   align-items: center;
 }
 
+.row-2 a {
+  color: #000;
+  text-decoration: none;
+}
+
 .line {
   box-sizing: border-box;
   height: 26px;
@@ -417,7 +422,6 @@ hr {
   width: 100%;
   background-color: #F0F0F0;;
   background-image: url(images/image_header_entreprise.png);
-  /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center;
 }
