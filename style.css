@@ -102,7 +102,7 @@ a:hover {
   margin: 20px;
 }
 
-.banner {
+.banner-homepage {
   background-image: url(images/IMAGE_HOME.jpg);
   /* background-color: rgba(0,0,0,47.2); */
   background-size: cover;
@@ -286,8 +286,11 @@ a:hover {
 
 /*COLLECTE PERSO*/
 
-.banner-collecte-perso {
+.banner {
   height: 412px;
+}
+
+.banner-collecte-perso {
   background-image: url(images/image_header_collecte_personnelle@2x.png);
   background-size: cover;
 }
