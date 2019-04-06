@@ -315,7 +315,7 @@ a:hover {
 
 .wrapper-description-content {
   width: 960px;
-  height: 450px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -364,10 +364,6 @@ hr {
   width: 1140px;
   margin: 0 auto;
   text-align: center;
-}
-
-.campagnes {
-
 }
 
 .campagne {
@@ -420,8 +416,52 @@ hr {
 
 .banner-entreprises {
   width: 100%;
-  background-color: #F0F0F0;;
+  background-color: #F0F0F0;
   background-image: url(images/image_header_entreprise.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/*ASSOCIATION*/
+
+.banner-association {
+  background-image: url(images/image_header_page_mcc@2x.png);
+  background-size: cover;
+}
+
+#h3-asso {
+  color: #E40520;
+}
+
+.video-asso {
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-asso {
+  height: 700px;
+}
+
+.banner-association-chiffres {
+  height: 800px;
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #e40520;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.banner-association-chiffres img {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-size: cover;*/
+}
+
+.banner-association-chiffres h3 {
+  margin: 0;
 }
