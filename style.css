@@ -286,6 +286,9 @@ a:hover {
 
 /*COLLECTE PERSO*/
 
+#p-red {
+  color:#E40520;
+}
 .banner {
   height: 412px;
 }
@@ -316,6 +319,10 @@ a:hover {
 
 .wrapper-description-content h3, h4, p {
   margin: 0;
+}
+
+.wrapper-description-content a {
+  text-decoration: none;
 }
 
 hr {
@@ -404,3 +411,13 @@ hr {
   text-decoration: none;
 }
 
+/*ENTREPRISES*/
+
+.banner-entreprises {
+  width: 100%;
+  background-color: #F0F0F0;;
+  background-image: url(images/image_header_entreprise.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
