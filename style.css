@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'proximanova-regular';
-    src: url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
-         url('fonts/proximanova-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'proximanova-regular';
+  src: url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
+       url('fonts/proximanova-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   margin: 0;
-  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-family: "proximanova-regular";
 }
 
 /*HOMEPAGE*/
@@ -83,7 +83,7 @@ a:hover {
   height: 39px;
   width: 186px;
   color: #FFFFFF;
-  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-family: "proximanova-regular";
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 32px;
