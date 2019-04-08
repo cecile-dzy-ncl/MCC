@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'proximanova-regular';
-    src: url('https://cecile-dzy-ncl.github.io/MCC/fonts/proximanova-regular-webfont.woff2') format('woff2'),
-         url('https://cecile-dzy-ncl.github.io/MCC/fonts/proximanova-regular-webfont.woff') format('woff');
+    src: url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
