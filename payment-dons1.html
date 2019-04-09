@@ -1,0 +1,1287 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr_FR" lang="fr_FR">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<title>Soutenez Mécénat Chirurgie Cardiaque</title>
+<meta name="description" content="Soutenez Mécénat Chirurgie Cardiaque en effectuant un don pour sauver des enfants cardiaques" />
+<meta name="keywords" content="association,don,dons,donner,soutenir, mecenat chirurgie cardiaque, enfants, malformation cardiaque, pédiatrique" />
+<link rel="stylesheet" href="style-iraiser.css" />
+<link type="text/css" href="https://mecenat-cardiaque.iraiser.eu/themes/default/css/style.css?v=7.5.8a" rel="stylesheet" />
+
+<link type="text/css" href="https://mecenat-cardiaque.iraiser.eu/libs.iraiser.eu/libs/intl-tel-input/css/intlTelInput.css" rel="stylesheet" />
+
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/jquery-1.11.2.min.js" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/libs.iraiser.eu/libs/intl-tel-input/js/intlTelInput.js" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/jquery.cookie-1.0.min.js" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/dnterrors.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/step1.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/step2.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/step3.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/steps.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/jquery.ir-priceinput.js" ></script>
+<script type="text/javascript" src="https://mecenat-cardiaque.iraiser.eu/themes/default/js/common.js" ></script>
+<script type="text/javascript">
+// <![CDATA[
+ var ira_form_version = 'b';
+Steps.version="b";
+Step1.tax_reduction_rates =    {"ir":[75,66],"isf":[75,0],"corp":[60],"custom1":[],"custom2":[]};
+Step1.tax_reduction_ceils =    {"ir":[530],"isf":[66666.67],"corp":[],"custom1":[],"custom2":[]};
+Step1.tax_reduction_notices =  {"ir":"\u00e0 hauteur de 20% du revenu imposable","isf":"","corp":"\u00e0 hauteur de 5\u2030 du chiffre d'affaires annuel","custom1":"","custom2":""};
+Step1.tax_reduction_triggers = {"ir":"0","isf":"0","corp":"0","custom1":"0","custom2":"0"};
+Step1.active_tax_reduction = 1;
+Step1.adapt_tax_bloc = false;
+Step1.tax_info = "Votre don ne vous co\u00fbte r\u00e9ellement que <span class='price'>%s \u20ac<\/span> apr\u00e8s r\u00e9duction fiscale (r\u00e9duction de <span class='price'>%d \u20ac<\/span> \u00e0 hauteur de 20% du revenu imposable).";
+Step1.is_french_isf = 0;
+
+Step1.decimal_sep = ",";
+Step1.min_once_amount = 2;
+Step1.max_once_amount = 100000;
+Step1.min_regular_amount = 2;
+Step1.max_regular_amount = 10000;
+DntErrors.errorMsg.errors = "%s erreurs ont \u00e9t\u00e9 trouv\u00e9es dans le formulaire";
+DntErrors.errorMsg.error = "1 erreur a \u00e9t\u00e9 trouv\u00e9e dans le formulaire";
+DntErrors.errorMsg.choose_amount = "Vous devez choisir un montant pour votre don";
+DntErrors.errorMsg.min_once_amount = "En raison de frais de traitement, le montant minimum accept\u00e9 pour un don est de 2 \u20ac ";
+DntErrors.errorMsg.max_once_amount = "Votre don ne peut pas \u00eatre sup\u00e9rieur \u00e0 100000 \u20ac ";
+DntErrors.errorMsg.min_regular_amount = "En raison de frais de traitement, le montant minimum accept\u00e9 pour un don est de 2 \u20ac ";
+DntErrors.errorMsg.max_regular_amount = "Votre don ne peut pas \u00eatre sup\u00e9rieur \u00e0 10000 \u20ac ";
+DntErrors.errorMsg.errors = "%s erreurs ont \u00e9t\u00e9 trouv\u00e9es dans le formulaire";
+DntErrors.errorMsg.error = "1 erreur a \u00e9t\u00e9 trouv\u00e9e dans le formulaire";
+DntErrors.errorMsg.qualification = "Le champ \u00ab %s \u00bb est obligatoire";
+DntErrors.errorMsg.firstname = "Vous devez saisir votre Pr\u00e9nom";
+DntErrors.errorMsg.lastname = "Vous devez saisir votre Nom";
+DntErrors.errorMsg.email = "Vous devez saisir une adresse Email valide";
+DntErrors.errorMsg.company = "La raison sociale ne doit pas d\u00e9passer 35 caract\u00e8res";
+DntErrors.errorMsg.address1 = "Vous devez saisir votre Adresse";
+DntErrors.errorMsg.postcode = "Vous devez saisir votre Code postal (10 caract\u00e8res maximum)";
+DntErrors.errorMsg.city = "Vous devez saisir votre Ville";
+DntErrors.errorMsg.civility = "Vous devez s\u00e9lectionner votre Civilit\u00e9";
+DntErrors.errorMsg.errors = "%s erreurs ont \u00e9t\u00e9 trouv\u00e9es dans le formulaire";
+DntErrors.errorMsg.error = "1 erreur a \u00e9t\u00e9 trouv\u00e9e dans le formulaire";
+DntErrors.errorMsg.cardtype = "S\u00e9lectionnez votre type de carte bancaire";
+DntErrors.errorMsg.cardnumber = "Saisissez correctement les chiffres de votre carte bancaire";
+DntErrors.errorMsg.cardscode = "Saisissez correctement les chiffres du code de s\u00e9curit\u00e9 situ\u00e9s au dos de votre carte bancaire";
+DntErrors.errorMsg.cardmonth = "S\u00e9lectionnez le mois d'expiration de votre carte bancaire";
+DntErrors.errorMsg.cardyear = "S\u00e9lectionnez l'ann\u00e9e d'expiration de votre carte bancaire";
+DntErrors.errorMsg.gocardless = "Ce mode de paiement implique un montant inf\u00e9rieur \u00e0 5000\u20ac. Merci de diminuer le montant ou de s\u00e9lectionner un autre moyen de paiement";
+
+Step2.failed_dnt_url = "/index.php?module=donations&action=xhr:attemptSave";
+form_context_lang = "fr_FR";
+form_context_cid = "15";
+
+Step3.alert_msg = "";
+Step3.modal_qualif = "0";
+Step3.modal_qualif_url = "/index.php?module=donations&action=default:modalQualification";
+Step3.modal_save_card = "0";
+Step3.modal_save_card_url = "/index.php?module=donations&action=default:modalSaveCard";
+Step3.modal_save_card_set_url = "/index.php?context_form_id=form_89.3.236.207_5cac6d1bc62ee9.43092963&module=donations&action=default:setSaveCard";
+
+Step3.cards_mastercard_length=16;
+Step3.cards_mastercard_cvvlength=3;
+Step3.cards_mastercard_hasalias=1;
+Step3.cards_visa_length=16;
+Step3.cards_visa_cvvlength=3;
+Step3.cards_visa_hasalias=1;
+Step3.cards_cartebleue_length=16;
+Step3.cards_cartebleue_cvvlength=3;
+Step3.cards_cartebleue_hasalias=1;
+
+
+$(document).ready(function() {
+    Step1.init();
+    Step2.init();
+    Steps.init();
+    Steps.submit();
+
+});
+
+try{ var ira_context_infos = {"form_id":"form_89.3.236.207_5cac6d1bc62ee9.43092963","campaign":"15","version":"b","lang":"fr_FR","reserved":"[]","_cpn_name_":null}; console.log(ira_context_infos); }catch(err){}
+// ]]>
+</script><meta name="viewport" content="width=device-width" />
+<style type="text/css">
+    .regularblock {
+        display:none;
+    }
+
+
+a {
+        }
+
+body, html {
+        }
+
+body {
+    background:  url(/cdn.iraiser.eu/GK/sRPVsMCh1Ha/E6g20j1FFmDi+J+UaT5caeefVJN4=/default/origin/imagefondmccenfants-iraiser2x.png) no-repeat top center;    background-attachment: scroll;
+            }
+
+#container {
+
+    }
+
+#header {
+        }
+
+#main {
+    }
+
+#footer {
+    background: #ed1b2d;}
+
+#lang p {
+        }
+
+#lang span {
+        }
+#lang a {
+        }
+#lang a.current {
+        }
+
+#copyright p {
+        }
+#copyright span {
+        }
+#copyright a {
+        }
+#copyright a.current {
+        }
+
+    .step-title {
+        background:  center center;    }
+
+    .step-title h2 {
+                                                    }
+
+    .step-title span {
+                                                    }
+
+
+.step-info {
+                }
+
+.step-info h4 {
+                    }
+
+.help {
+            }
+
+
+#or {
+                    }
+
+
+.bloc-content h3 {
+                    }
+
+.content-desc {
+        }
+
+.radio-inline {
+                }
+
+.radio-desc {
+                }
+
+.radio-desc span {
+            }
+
+
+#once {
+    background: #FFFFFF;        }
+
+
+
+
+
+
+
+
+#regular {
+    background:  center;        }
+
+
+
+
+
+
+
+
+#cb-bloc h4, .payment h4 {
+                    }
+
+
+#contact-info {
+            }
+
+
+#cb-bloc {
+            }
+
+
+
+#other-payment-bloc {
+        }
+
+#other-payment-bloc h4 {
+                    }
+
+
+    .step-content {
+            }
+
+    .step-container .step-info {
+                    }
+
+
+#greetings, #postmail-content {
+            }
+
+#postmail h2 {
+                        }
+
+#greetings h2, #postmail h3 {
+                        }
+
+#greetings a, #postmail a {
+        }
+
+.renew-info {
+                    color: #FFFFFF;}
+
+#greetings-comp {
+            }
+
+
+
+#greetings #social-share {
+        }
+
+</style>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/libs.iraiser.eu/libs/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="/libs.iraiser.eu/libs/forms/apivalidation.js"></script>
+<script>
+ $(document).ready(function(){
+  ApiValidation.init({
+    keyapivalidation :      'AIzaSyAuhc6hzwLKb0FLOpwsNcPbWoGcsqFXp2Y',
+    addedFieldAddressForNL : false
+  });
+});
+</script>
+<style>/* generique */#once h3,#regular h3,.step-info h4,.step-title h2{text-transform:uppercase}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body,html{background-color:#FFF}body{font-family:'Open Sans',sans-serif;font-weight:400;text-rendering:optimizeLegibility;color:#333}#card-expiry>span,h2,h3,h4,h5,h6,label,optgroup,strong{font-weight:600}#step-nav ul li,label>.help,optgroup option{font-weight:400}body,button,input{-webkit-font-smoothing:antialiased}a{color:#e01f32;text-decoration:none;transition:color .2s linear 0s}a:hover{color:#00dcfc;text-decoration:underline}#step-1 .step-container{margin-right:5px}#step-2 .step-container{margin-left:5px;margin-right:5px}#step-2 label{font-size:14px}#step-3 .step-container{margin-left:5px}input[type=text],select{font-size:15px;padding:7px 9px;outline:0;background-color:#f6f8fa;border:1px solid #c5d3dc;border-radius:0;transition:border .2s linear 0s,background-color .2s linear 0s;height:40px;line-height:40px;margin-top:5px;width:100%}input[type=text].error,select.error{outline:0;background-color:#fff5f9;border:1px solid #fb0053}input[type=text].valid,select.valid{outline:0;background-color:#f1fbec;border:1px solid #3ab700}input[type=text]:focus,select:focus{outline:0;background-color:#FFF;border:1px solid #1d4f91}#greetings-text a,#or p,#postmail-content a,.free-amount span,.renew-info{font-weight:700}#card-expiry span{margin-bottom:.1rem}.renew-info,.required{color:#e90038}#or p,.help{color:#5B6770}#logo>h1{margin:30px 0 20px}#main,#main-container,.step-content{background-color:rgba(255,255,255,.6)}#type-a #main,#type-b #main,#type-c #main{background:0 0}.step-content #security-info p{margin:0 10px 10px;text-align:center}.step-content #security-info img{margin:0;vertical-align:bottom}.bloc{background-clip:border-box;border:none;background-color:rgba(255,255,255,.6)}#once,#regular{background-color:#FFF}#step-1 .bloc-content{padding:0}#once h3,#regular h3{margin-bottom:10px;padding:12px;font-size:145.5%;font-family:Roboto;font-weight:700}.radio-inline span{padding-bottom:6px;font-size:138.5%;font-weight:700}.free-amount{padding-bottom:20px;margin-left:10px}.free-amount input{margin-right:4px;width:80%}.tax-info{position:relative;margin-top:20px;padding-bottom:14px}.tax-info:after,.tax-info:before{display:inline-block;position:absolute;width:0;content:"";left:40px}#cb-bloc,#iban{padding-bottom:10px}.tax-info:before{z-index:2;top:-19px;border:10px solid;border-color:transparent transparent #FFF}.tax-info:after{z-index:1;top:-20px;border:10px solid}#type-a select#civility{width:75%}.step-content #security-info p{margin-bottom:0}#security-info img{margin-right:10px}#cb-bloc h4,#type-a #other-payment-bloc h4,.payment h4{position:relative;margin:10px 0 12px;padding:10px;font-size:108%;color:#000;text-shadow:0 1px 0 rgba(255,255,255,.4);border:none;background-color:rgba(91,103,112,.2)}#greetings-comp .help,#greetings-comp h2,#share-title h2,.step-info h4{color:#FFF}#navbar #security-info,#step-nav ul{padding:0}#step-2 input#city,#step-2 input#postcode{width:100%}#c-pcode{width:45%!important;margin-right:5%}#card-expiry label{width:50%;float:left}#card-expiry label:nth-child(3){width:45%;margin-left:5%}#cb-bloc h4:after,#type-a #other-payment-bloc h4:after,.payment h4:after{display:block;content:"";position:absolute;bottom:-20px;left:40px;width:0;border:10px solid;border-color:rgba(91,103,112,.2) transparent transparent}#type-a #cb-bloc h4,#type-a #other-payment-bloc h4{margin-top:0}.payment-submit input[type=image]{margin-bottom:10px}.step-info h4{line-height:1.2em;font-size:138.5%}#greetings #social-share{background-color:#0062b3;border-color:#0062b3}#greetings-comp{background:#e01f32;border-color:#e01f32;color:#FFF;text-shadow:0 -1px 0 rgba(0,0,0,.1)}#greetings h2,#greetings-content h3,#postmail h3{text-transform:uppercase;text-shadow:0 -1px 0 rgba(0,0,0,.1)}#greetings-comp h2,#share-title h2,.step-title h2{text-shadow:0 -1px 0 rgba(0,0,0,.4)}.greetings-full{margin:0}#main-container #form-error,#step-nav ul{margin-left:10px}#footer{margin-bottom:10px;margin-top:10px;background-color:rgba(0,0,0,.8)}#copyright span{color:rgba(255,255,255,.1)}#navbar{padding-bottom:20px;background-color:rgba(91,103,112,.6);border-radius:4px 4px 0 0;border-bottom:1px solid rgba(255,255,255,.9)}#navbar #security-info img{margin-top:28px}#step-nav ul li{display:block;float:left;width:33.333333%;margin:0;padding-bottom:16px;border-bottom:1px solid #C9C9C9;text-align:center;font-size:14px;color:#B8B8B8}#step-nav ul li.current>a{color:#FFF;font-weight:700}#step-nav ul li.current>a:hover,#step-nav ul li.previous>a,#step-nav ul li.previous>a:hover{color:#00dcfc}#step-nav ul li>span{position:absolute;top:-99999em;left:-99999em}#step-nav ul li.current,#step-nav ul li.previous{border-bottom:1px solid #00dcfc;font-weight:700;color:#FFF}#step-nav ul li:before{position:relative;float:left;bottom:-28px;left:50%;height:26px;width:26px;line-height:24px;border-radius:5em;font-size:14px;font-weight:700;color:#FFF;box-shadow:0 3px 5px 0 rgba(0,0,0,.2) inset;background-color:#B8B8B8}#step-nav ul li.current:before,#step-nav ul li.previous:before{background-color:#00dcfc;color:#FFF;text-shadow:1px 1px 0 rgba(0,0,0,.5)}#step-nav ul li:nth-child(1):before{content:"1"}#step-nav ul li:nth-child(2):before{content:"2"}#step-nav ul li:nth-child(3):before{content:"3"}#form-error,#form-info,#form-valid{margin:0 0 10px}#form-error h3{color:#e90038;font-size:167%;letter-spacing:0}#form-error{color:#e90038;background-color:#feeff2;border-color:#e90038}#form-info{color:#333;background-color:#ecf4fb;border-color:#0062b3}@media only screen and (max-width:959px){#step-1 .step-container,#step-2 .step-container,#step-3 .step-container,.step-content #security-info p{margin:0}#card-number>label,#step-3{display:block}#header{padding:0 0 10px}#lang{margin-top:0}#step-nav ul li{width:100%!important}#content-container{margin-right:0}#type-a select#civility{width:auto}#next-submit{padding:0!important}#next-submit p{padding:20px 0 10px}#next-submit input.button{margin:0 auto!important;float:none!important}#sidebar{padding-top:0}}@media only screen and (min-width:768px) and (max-width:959px){#powered,#step-nav{float:left!important}#step-nav{width:60%!important}#copyright{float:right!important}}@media only screen and (max-width:767px){#navbar{padding:0 10px 30px}#step-nav ul{margin-left:0}#type-a #step-2 input#company,#type-a #step-2 input#email,#type-a #step-2 input[type=text],#type-a #step-2 select#country{width:95%}#type-a #step-2 .lastUnit{display:block}#powered p{overflow:hidden}#copyright{display:block!important;text-align:left;border-top:1px solid rgba(255,255,255,.1)}}.amount ul.radio-desc li label,.radio-inline{padding-right:0}.radio-inline{padding-left:5px;padding-bottom:0}.radio-inline li{white-space:nowrap;margin:0 6px;padding-bottom:6px}.amount ul li label input{visibility:hidden}.amount ul.radio-desc li label span{float:left}#step-2 input{width:100%}.amount ul.radio-desc li label span,.amount ul.radio-inline li:first-child label span{padding:10px}.amount ul li label span{border:1px solid transparent;padding:10px 8px;font-size:138.5%;font-weight:700;cursor:pointer;background-image:-webkit-linear-gradient(top,rgba(255,255,255,.1) 0,rgba(0,0,0,.1) 100%);background-image:-o-linear-gradient(top,rgba(255,255,255,.1) 0,rgba(0,0,0,.1) 100%);background-image:-ms-linear-gradient(top,rgba(255,255,255,.1) 0,rgba(0,0,0,.1) 100%);background-image:linear-gradient(to bottom,rgba(255,255,255,.1) 0,rgba(0,0,0,.1) 100%);border-radius:3px;box-shadow:0 1px 1px 0 rgba(255,255,255,.4) inset,0 1px 1px 1px #003246;transition:background-color .15s linear 0s,box-shadow .15s linear 0s}.amount ul li label span.active{box-shadow:0 1px 2px 1px rgba(0,0,0,.3) inset}</style>
+<style>/* custom select */div.cs-select{margin-top:5px;height:40px;display:inline-block;vertical-align:middle;position:relative;text-align:left;background:#fff;z-index:100;width:100%;max-width:500px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}div.cs-select:focus{outline:0}.cs-select select{display:none}.cs-select span{display:block;position:relative;cursor:pointer;padding:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:100%}.cs-select>span{padding-right:0}.cs-select .cs-selected span::after,.cs-select>span::after{speak:none;position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.cs-select>span::after{content:'\25BE';right:0}.cs-select .cs-selected span::after{content:'\2713';margin-left:1em}.cs-select.cs-active>span::after{-webkit-transform:translateY(-50%) rotate(180deg);transform:translateY(-50%) rotate(180deg)}div.cs-active{z-index:200}.cs-select .cs-options{position:absolute;overflow:hidden;width:100%;background:#fff;visibility:hidden;max-height:160px;overflow-y:scroll}.cs-select.cs-active .cs-options{visibility:visible}.cs-select ul{list-style:none;margin:0;padding:0;width:100%}.cs-select ul span{padding:1em}.cs-select ul li.cs-focus span{background-color:#ddd}.cs-select li.cs-optgroup ul{padding-left:1em}.cs-select li.cs-optgroup>span{cursor:default}div.cs-skin-border{background:#fff;font-size:18px;font-weight:400;max-width:600px;margin-bottom:0}@media screen and (max-width:30em){div.cs-skin-border{font-size:1em}}.cs-skin-border>span{border:none;border-color:inherit;-webkit-transition:background .2s,border-color .2s;transition:background .2s,border-color .2s;color:#2e2e2e;text-align:left;line-height:38px;padding:0 0 0 5px;font-size:15px;font-family:'Open Sans',sans-serif}.cs-skin-border .cs-selected span.cs-placeholder::after,.cs-skin-border>span.cs-placeholder::after{font-family:FontAwesome;content:'\f107';background-color:#B8BABB;height:100%;padding:0 3px;line-height:40px;color:#fff}.cs-skin-border ul span::after{content:'';opacity:0}.cs-skin-border .cs-selected span::after{content:'';color:#ddd9c9;font-size:1.5em;opacity:1;-webkit-transition:opacity .2s;transition:opacity .2s}.cs-skin-border.cs-active>span{background:#fff;border-color:#fff;color:#2e2e2e}.cs-skin-border .cs-options{color:#2e2e2e;font-size:.75em;opacity:0;-webkit-transition:opacity .2s,visibility 0s .2s;transition:opacity .2s,visibility 0s .2s}.cs-skin-border.cs-active .cs-options{opacity:1;-webkit-transition:opacity .2s;transition:opacity .2s}.cs-skin-border ul span{-webkit-backface-visibility:hidden;backface-visibility:hidden}.cs-skin-border .cs-options li span:hover,.cs-skin-border li.cs-focus span{background:#f5f3ec}</style>
+<style>/* carte credits */#card-scode #scode { width: 20%}#card-scode .help { width: 75%}#card-type>p{text-align:center}#card-type .cs-select{background:0 0;min-height:60px}#card-type .cs-select .cs-options{position:absolute;overflow:visible;width:100%;visibility:visible;opacity:1;background:0 0}#card-type .cs-placeholder,#card-type .cs-select li:nth-child(1){display:none}#card-type .cs-select li[data-value=mastercard],#card-type li:nth-child(1),#card-type li[data-value=mastercard]{background-image:url(/libs.iraiser.eu/users/iraiser/logos/mastercard.png)}#card-type .cs-select li[data-value=visa],#card-type li:nth-child(2),#card-type li[data-value=visa]{background-image:url(/libs.iraiser.eu/users/iraiser/logos/visa.png)}#card-type input{position:absolute;top:46px;left:50%;margin-left:-6px}#card-type .cs-select li[data-value=cartebleue],#card-type li[data-value=cb]{background-image:url(/libs.iraiser.eu/users/iraiser/logos/cb.png)}#card-type .cs-select li[data-value=bancontact],#card-type li[data-value=bancontact]{background-image:url(/libs.iraiser.eu/users/iraiser/logos/bancontact.png)}#card-type .cs-select li[data-value=amex],#card-type li[data-value=amex]{background-image:url(/libs.iraiser.eu/users/iraiser/logos/amex.png)}#card-type .cs-select span:hover{background-color:transparent}#card-type ul{position:relative;width:100%;display:block}#payment_modes_regular ul{max-width:287px}#card-type .cs-select li,#card-type li{background-repeat:no-repeat;background-position:top center;line-height:1.3;width:25%;display:block;float:left;background-color:transparent;overflow:hidden;position:relative;height:60px;padding-bottom:15px;cursor:pointer;font-size:0}#card-type li label{font-size:0;display:block;height:40px;cursor:pointer}#card-type .cs-select li:after,#card-type .cs-select li:before{position:absolute;top:45px;left:0;font-family:FontAwesome;bottom:0;height:15px;width:99%;text-align:center;line-height:15px;text-indent:0;display:block}#card-type .cs-select li:before{content:"\f10c";color:#ABAAAA;font-size:13px}#card-type .cs-select li:after{content:"\f111";color:#DEDEDE;font-size:10px}#card-type .cs-select li.cs-selected:after{content:"\f111";color:#666;font-size:7px}#card-type .cs-select li span:hover,#payment_modes_once #card-type li span:hover{background:0 0}</style>
+<style>/* montants */.radio-inline{padding-left:5px;padding-right:0;padding-bottom:0}.radio-inline li{margin:0 6px;padding-bottom:6px}.amount ul li label input{visibility:hidden}.amount ul.radio-desc li label span,.amount ul.radio-inline li:first-child label span{padding:10px}.amount ul.radio-inline{padding-left:15px}.amount ul.radio-desc li label{padding-right:0}.amount ul.radio-desc li label span{float:left}</style>
+
+<style>
+    /* custom */
+    .step-title {
+        background-color: #e01f32;
+    }
+    .step-title h2 {
+        color: #fff;
+    }
+     .step-info {
+        color: #000;
+        background-color: rgba(255, 255, 255,1);
+    }
+     #once h3, #regular h3 {
+        background-color: #E40520;
+        color: #fff;
+    }
+    /* price */
+    .price {
+        color: #e01f32
+    }
+    .tax-info {
+        border-top: 1px solid #e01f32
+    }
+    .tax-info:after {
+        border-color: transparent transparent #e01f32
+    }
+    /* langue */
+    #lang {
+        color: #fff;
+    }
+    .step-info h4 {
+        color:#e01f32;
+    }
+    /* footer */
+    #footer a,
+    #footer a.current,
+    #footer a:hover {
+        color: #FFF
+    }
+    /*remerciement*/
+    #greetings-text h2,
+    #postmail-content h3 {
+        color: #e01f32;
+    }
+
+    #greetings.bloc {
+        background-color:#fff;
+    }
+    .amount ul li label span {
+        color: #575656;
+        background-color: #d9d9d9;
+        border: 1px solid #d9d9d9;
+        box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.4) inset, 0 1px 1px 1px #706f6f;
+    }
+    .amount ul li label span.active {
+        background: #e01f32;
+        color: #fff;
+        border: 1px solid #e01f32;
+    }
+    #card-expiry div.cs-skin-border,
+    #c-civ div.cs-skin-border,
+    #c-country div.cs-skin-border {
+    border: 1px solid #c5d3dc;
+    }
+
+</style>
+<script src="/libs.iraiser.eu/libs/dom/classie.js"></script>
+<script src="/libs.iraiser.eu/libs/forms/select/selectFx.js"></script>
+<script>
+$(document).ready(function() {
+// liste montants
+        $('.amount ul li label span').click(function() {
+            var $this = $(this);
+            $('.amount ul li label span.active').removeClass('active');
+            $this.addClass('active');
+        });
+        $('.free-amount input').blur(function() {
+            var value = $(this).val().replace(',', '.');
+            if (value != '' && !isNaN(value)) {
+                $('.amount ul li label span.active').removeClass('active');
+            }
+        });
+
+//custom select && card type
+      if (typeof Step3 != 'undefined') {
+          Step3.select('#card, #card-expiry select, #card-number select').addClass('cs-select cs-skin-border');
+
+          $('#cb-payment #card, #card-expiry select, #card-number select').addClass('cs-select cs-skin-border');
+      }
+      $('#step-2 select').addClass('cs-select cs-skin-border');
+  (function() {
+    [].slice.call( $('#step-2 select.cs-select')).forEach( function(el) {
+      new SelectFx(el);
+    } );
+    [].slice.call( $(Step3.select('select.cs-select'))).forEach( function(el) {
+      new SelectFx(el);
+    });
+    [].slice.call( $('#cb-payment .cs-select')).forEach( function(el) {
+      new SelectFx(el);
+    });
+  })();
+
+//correction step-info autoheight
+    var stepinfo1_height = $('#step-1 .step-info').outerHeight();
+    var stepinfo2_height = $('#step-2 .step-info').outerHeight();
+    var stepinfo3_height = $('#step-3 .step-info').outerHeight();
+    var max_height = Math.max(stepinfo1_height, stepinfo2_height, stepinfo3_height);
+    $('.step-info').css({
+    'min-height': max_height,
+    'height': 'auto'
+  });
+});
+</script></head><body id="type-b" >
+
+<div id="container">
+
+  <div id="header" class="line">
+        <div id="logo" class="unit size3of4">
+
+            <h1><a href="http://www.mecenat-cardiaque.org" title="Mécénat Chirurgie Cardiaque"><img src="https://mecenat-cardiaque.iraiser.eu//cdn.iraiser.eu/GK/sRPVsMCh1Ha/E6g20j1FFmDi+J+UaT5caeefVJN4=/default/origin/MCCLogoblanc2x.png" alt="Mécénat Chirurgie Cardiaque"/></a></h1>
+
+        </div>  <!-- End Logo -->
+
+        <div id="lang" class="unit size1of4 lastUnit">
+    <p>Langues :        <a href="/15/~mon-don?context_form_id=form_89.3.236.207_5cac6d1bc62ee9.43092963" title="Fran&ccedil;ais" class="current">Fran&ccedil;ais</a> <span>|</span>
+        <a href="/15/~my-donation?context_form_id=form_89.3.236.207_5cac6d1bc62ee9.43092963" title="English">English</a>
+    </p>
+</div> <!-- End Lang -->
+    </div> <!-- End Header -->
+
+    <div id="_wait">
+        <div id="floatingCirclesG">
+            <div class="f_circleG" id="frotateG_01"></div>
+            <div class="f_circleG" id="frotateG_02"></div>
+            <div class="f_circleG" id="frotateG_03"></div>
+            <div class="f_circleG" id="frotateG_04"></div>
+            <div class="f_circleG" id="frotateG_05"></div>
+            <div class="f_circleG" id="frotateG_06"></div>
+            <div class="f_circleG" id="frotateG_07"></div>
+            <div class="f_circleG" id="frotateG_08"></div>
+        </div>
+    </div>
+
+<div id="main" class="line">
+
+    <noscript>
+    </noscript>
+
+
+<form action="/b/steps/save" method="post" id="form-steps" autocomplete="off">
+
+<input type="hidden" name="context_form" value="ec4e6+Qt8N9Kq1ixfykQh8cNwKkl4V0R4rWLLlA3vUmxEmKrs0TUFTNe30TZPxNuaj3AoU+Lg9X7GvXtQhDAvMzVnXNVUOcWfURVcXBme0e+fHOcjyAgTSFHMLaRkLaFpxVsVdrFHWzpZRB3UDcfLJWNpLb4ZUUZlR6sSB8L7UozLlr58wtAYpT5vbiHuqTBLexh14D3niodAcI/IPgZp0E7ZCY10rNnJ97KXm6cPhQBHHIcVsrOee3VcXDyoJWfhTDhk9htY9mpWXhRS9Irod+PbWWg8kENJrrWh8QayI3FmjltdMv0nBlqiq8toY9JxW+QNRs2s+XICODhewue34WfYDaEbBgQPvatuj0o4ltbcFewW1SwAUxdD6RAYYpPBlQbeWndAyxDZkkPHj1w1lRTc/pUZZTBpY+XrXilp3IQNzDldnPrVrZsr1BgfTDQaVnOyB+qlYqqRRfRCN+UQgg0XySjTtwUTuXlnQzOhA3jDZX+ZU0+CQCbSiVgpeAYee53b2P8lwPTZf0b73dB+g2dyUux8gm1C03yjvsWuUGbz5sSOaLKaFxQNI2Jv2V79vw28nVtSHYFuuKPmmOLTxPD7xGfMhWKWV5Xy18Xihsj6qvLMivIExBsA46ajVRmvz6GGUBbPzscmbzeu83vPmXHnLmHJZleMywUIxXShu1F6H6pJDbrOo7A7gp0ezQXXVRWXlZMtuDo/vVt70XCb2asUXGen6ZjvF6I43GeVMDGiV+K9eK4Y+Uik/3EIDdaHKus3rP7d4/a+z6oZo/MllsuiFDSYUkSEYs/fil2wyQhNY3RhoxQ3/z+LMRzjG8g/D3OSSu88yftrnriP7pdmlbpS5dkn4JY2BedH6e6q+zOOZJjgB0RSCMVAnSX93Hnmr5k2Xj/PVdwZsNgcxcprHZk2wNseuT9jsRiajx7XiC9FnmLXRyN52l557qdwpCk9Gk5/9V1Ly0YuBXmLhgZT4spN4jiK0za396KK9S0Frs4zVkyd6uIbjyl7dwIG8IuNwmsbuKdb2zLi8nZMDIKcpTcWxUabSXcqyEd0/WOHJDvnyxQDdjqoJg3q5UqideYNFNH5HPzhMu19GqEkhBehTKjkLJR+ZAIBcQInORfxD6X4/fGaDddoccEENNV3xlYTj09dl9QOkhY/it+YFxSoK0GuQNVaTw6Mqz3uHiZ9Prt/xSe9GmasqBp0fuxkKJ3GmS5cwaPdQCSlxjD5I/FmcFlLV7wfwQHDKblsrZ5E4FOV/vEYOPGkyepXZJOgx8cy8v2vAWrfihfv6wHYjRdKzgWQ6mR/6jyn1uUkkNw6jhby3xZyKwwzerY/ebOvfJ+VE5B+cfzYwG5nEj66FFDP3U+GmPPkLoGZZSvBZMOtxrHNrac3pv7E4wbAEyn7Hsev1C76Z1qJmdfTq2DAbEodDthVSwCuHDfE2gAkHEGl5ePWY5sJMVWt0+SbCnoLztIYaZgyXwUY3PkgVUd3zn6wh0/+oiLLQNGi2o507D2jte9N+joFmmZAJezzqxC3+83dOfzahQP9pIpLTKHIrTsyEb6snBckcd/IGZ3wTej9ok=" />
+<input type="hidden" name="context_form_id" value="form_89.3.236.207_5cac6d1bc62ee9.43092963" />
+<input type="hidden" name="cid" value="15" />
+<input type="hidden" name="lang" value="fr_FR" />
+
+<input id="useragent_input" type="hidden" name="private_user_agent_cli" value=""/>
+<script type="text/javascript">
+    document.getElementById("useragent_input").value = navigator.userAgent;
+</script>
+<input id="referer_input" type="hidden" name="private_referer" value=""/>
+<script type="text/javascript">
+    document.getElementById("referer_input").value = document.referrer;
+</script>
+<input id="random_input" type="hidden" name="private_random" value=""/>
+<script type="text/javascript">
+    document.getElementById("random_input").value = Math.random();
+</script>
+
+<div id="step-1" class="unit size1of3">
+    <div class="step-container">
+        <div class="step-title">
+            <h2>1. MON DON</h2>
+        </div>
+
+        <div class="step-content">
+
+        <div>
+
+        </div>
+
+
+                        <div id="once" class="bloc">
+                <div class="bloc-content">
+                    <h3>Je donne une fois</h3>
+                    <div id="bloc-amount-once">
+
+    <fieldset class="amount">
+        <p class="thumbs"><img src="/medias/campaigns/1/fr_FR/pricelist_image_once_559e51efe2bf3.jpg" width="256" height="192" alt="Photo" /></p>
+
+                        <ul class="radio-inline line" id="amount-list-once">
+
+                    <li><label><span id="value_of_amount-once-5000">50 €</span> <input autocomplete="false" name="amount-once" type="radio" value="5000" id="amount-once-5000" /></label></li>
+
+                    <li><label><span id="value_of_amount-once-7500">75 €</span> <input autocomplete="false" name="amount-once" type="radio" value="7500" id="amount-once-7500" /></label></li>
+
+                    <li><label><span id="value_of_amount-once-10000">100 €</span> <input autocomplete="false" name="amount-once" type="radio" value="10000" id="amount-once-10000" /></label></li>
+
+                    <li><label><span id="value_of_amount-once-20000">200 €</span> <input autocomplete="false" name="amount-once" type="radio" value="20000" id="amount-once-20000" /></label></li>
+
+            </ul>
+                </fieldset>
+
+        <fieldset class="free-amount">
+        <p><label>Montant libre                <input autocomplete="section-famount" name="famount-once" type="text" size="6" id="famount-once" />
+        <span>€</span>
+        </label></p>
+    </fieldset>
+
+    <p class="tax-info"></p>
+    <!--<input type="hidden" value="" name="iraiser_analytics_session_id" id="iraiser_analytics_session_id"/>-->
+
+
+    <input type="hidden" name="referrer" />
+    <script type="text/javascript">
+        try{
+            $("input[name=referrer]").val(document.referrer);
+            if(document.location.search.indexOf('_cv')>1) {
+                $('input[name=referrer]').after($('<input type="hidden" name="query_string" />').val(document.location.search.substring(1)));
+            }
+        }catch(e){}
+    </script>
+
+
+</div>                </div>
+            </div> <!-- End Once -->
+
+            <div class="onceblock">
+
+
+            </div>
+
+            <div id="or">
+                <p>ou</p>
+            </div>
+
+                        <div id="regular" class="bloc">
+                <div class="bloc-content">
+                    <h3>Je donne tous les mois</h3>
+                    <div id="bloc-amount-regular">
+
+    <fieldset class="amount">
+
+                        <ul class="radio-inline line" id="amount-list-regular">
+
+                    <li><label><span id="value_of_amount-regular-2500">25 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="2500" id="amount-regular-2500" /></label></li>
+
+                    <li><label><span id="value_of_amount-regular-5000">50 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="5000" id="amount-regular-5000" /></label></li>
+
+                    <li><label><span id="value_of_amount-regular-7500">75 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="7500" id="amount-regular-7500" /></label></li>
+
+                    <li><label><span id="value_of_amount-regular-10000">100 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="10000" id="amount-regular-10000" /></label></li>
+
+            </ul>
+                </fieldset>
+
+        <fieldset class="free-amount">
+        <p><label>Montant libre                <input autocomplete="section-famount" name="famount-regular" type="text" size="6" id="famount-regular" />
+        <span>€</span>
+        </label></p>
+    </fieldset>
+
+    <p class="tax-info"></p>
+    <!--<input type="hidden" value="" name="iraiser_analytics_session_id" id="iraiser_analytics_session_id"/>-->
+
+
+    <input type="hidden" name="referrer" />
+    <script type="text/javascript">
+        try{
+            $("input[name=referrer]").val(document.referrer);
+            if(document.location.search.indexOf('_cv')>1) {
+                $('input[name=referrer]').after($('<input type="hidden" name="query_string" />').val(document.location.search.substring(1)));
+            }
+        }catch(e){}
+    </script>
+
+
+</div>                </div>
+            </div> <!-- End Each-month -->
+
+            <div class="regularblock">
+
+
+            </div>
+
+
+        <div>
+
+        </div>
+
+        </div> <!-- End Step-content -->
+
+        <div class="step-info">
+            <h4>Pourquoi donner ?</h4>
+                <p>M&eacute;c&eacute;nat Chirurgie Cardiaque Enfants du Monde permet &agrave; des enfants souffrant de malformations cardiaques de venir en France et d&#39;&ecirc;tre op&eacute;r&eacute;s lorsqu&#39;ils ne peuvent &ecirc;tre soign&eacute;s dans leur pays d&#39;origine par manque de moyens financiers et techniques.</p>
+
+<p>Chaque mois, M&eacute;c&eacute;nat Chirurgie Cardiaque accueille des enfants dans 9 villes de France. A cette mission principale s’ajoute la formation des m&eacute;decins r&eacute;f&eacute;rents dans les pays d’origine et le parrainage scolaire.</p>
+
+<ul>
+  <li><strong>76%</strong> de notre collecte est consacr&eacute;e &agrave; nos missions sociales,</li>
+  <li><b>3 000 </b>enfants ont &eacute;t&eacute; op&eacute;r&eacute;s du c&oelig;ur depuis 1996,</li>
+  <li><strong>12 000 €</strong> : le co&ucirc;t moyen pour l&#39;Association d&#39;une op&eacute;ration cardiaque en France.</li>
+</ul>
+
+        </div> <!-- End Step-info -->
+    </div> <!-- End Step-container -->
+</div> <!-- End Step-1 -->
+
+
+<div id="step-2" class="unit size1of3">
+    <div class="step-container">
+        <div class="step-title">
+            <h2>2. MES COORDONNÉES</h2>
+        </div>
+
+        <div class="step-content">
+
+            <fieldset>
+
+
+
+
+                            <p id="c-email">
+                    <label for="email">Email <span class="required">*</span> <span class="help">ex. bernard.dupond@yahoo.fr</span></label>
+                    <input type="text" name="email" id="email" value=""/>
+                </p>
+
+
+
+                                                            <p id="c-isc">
+                            <label><input type="checkbox" value="OK" name="iscompany" id="iscompany" /> Je fais un don au nom d'une organisation ou d'une société</label>
+                        </p>
+                        <p id="c-isc-inf" class="company-infos hidden">
+                            <label for="company">Raison sociale <span class="help">ex. Dupond SARL</span></label>
+                            <input type="text" name="company" id="company" value=""/>
+                        </p>
+                                                                        <p id="c-civ">
+                        <label for="civility">Civilité <span class="required">*</span></label>
+                        <select name="civility" id="civility">
+    <option value=""></option>
+    <option value="1">M</option>
+    <option value="2">Mme</option>
+    <option value="3">Mlle</option>
+
+</select>                    </p>
+                                                    <p id="c-fname">
+                        <label for="firstname">Prénom <span class="required">*</span> <span class="help">ex. Bernard</span></label>
+                        <input type="text" name="firstname" id="firstname" value=""/>
+                    </p>
+                                                    <p id="c-lname">
+                        <label for="lastname">Nom <span class="required">*</span> <span class="help">ex. Dupond</span></label>
+                        <input type="text" name="lastname" id="lastname" value=""/>
+                    </p>
+
+
+
+                                        <p id="c-addr1">
+                    <label for="address1">Adresse <span class="required">*</span> <span class="help">ex. 15 rue Jean Jaurès</span></label>
+                    <input type="text" name="address1" id="address1" value=""/>
+                </p>
+                                        <p id="c-addr2">
+                    <label for="address2">Complément adresse <span class="help">ex. Bât. B</span></label>
+                    <input type="text" name="address2" id="address2" value=""/>
+                </p>
+                                        <div class="line">
+                                            <p id="c-pcode" class="unit size1of2">
+                            <label for="postcode">Code postal <span class="required">*</span><!--<span class="help">ex. 75008</span>--></label>
+                            <input type="text" name="postcode" id="postcode" value=""/>
+                        </p>
+                                                                <p id="c-city" class="unit size2of2 lastUnit">
+                            <label for="city">Ville <span class="required">*</span> <span class="help">ex. Paris</span></label>
+                            <input type="text" name="city" id="city" value=""/>
+                        </p>
+                                    </div>
+                                        <p id="c-country">
+                    <label for="country">Pays <span class="required">*</span> <span class="help">ex. France</span></label>
+                                            <select name="country" id="country">
+    <option value="AF">AFGHANISTAN</option>
+    <option value="ZA">AFRIQUE DU SUD</option>
+    <option value="AX">ÅLAND, ÎLES</option>
+    <option value="AL">ALBANIE</option>
+    <option value="DZ">ALGÉRIE</option>
+    <option value="DE">ALLEMAGNE</option>
+    <option value="AD">ANDORRE</option>
+    <option value="AO">ANGOLA</option>
+    <option value="AI">ANGUILLA</option>
+    <option value="AQ">ANTARCTIQUE</option>
+    <option value="AG">ANTIGUA-ET-BARBUDA</option>
+    <option value="AN">ANTILLES NÉERLANDAISES</option>
+    <option value="SA">ARABIE SAOUDITE</option>
+    <option value="AR">ARGENTINE</option>
+    <option value="AM">ARMÉNIE</option>
+    <option value="AW">ARUBA</option>
+    <option value="AU">AUSTRALIE</option>
+    <option value="AT">AUTRICHE</option>
+    <option value="AZ">AZERBAÏDJAN</option>
+    <option value="BS">BAHAMAS</option>
+    <option value="BH">BAHREÏN</option>
+    <option value="BD">BANGLADESH</option>
+    <option value="BB">BARBADE</option>
+    <option value="BY">BÉLARUS</option>
+    <option value="BE">BELGIQUE</option>
+    <option value="BZ">BELIZE</option>
+    <option value="BJ">BÉNIN</option>
+    <option value="BM">BERMUDES</option>
+    <option value="BT">BHOUTAN</option>
+    <option value="BO">BOLIVIE, l'ÉTAT PLURINATIONAL DE</option>
+    <option value="BA">BOSNIE-HERZÉGOVINE</option>
+    <option value="BW">BOTSWANA</option>
+    <option value="BV">BOUVET, ÎLE</option>
+    <option value="BR">BRÉSIL</option>
+    <option value="BN">BRUNÉI DARUSSALAM</option>
+    <option value="BG">BULGARIE</option>
+    <option value="BF">BURKINA FASO</option>
+    <option value="BI">BURUNDI</option>
+    <option value="KY">CAÏMANES, ÎLES</option>
+    <option value="KH">CAMBODGE</option>
+    <option value="CM">CAMEROUN</option>
+    <option value="CA">CANADA</option>
+    <option value="CV">CAP-VERT</option>
+    <option value="CF">CENTRAFRICAINE, RÉPUBLIQUE</option>
+    <option value="CL">CHILI</option>
+    <option value="CN">CHINE</option>
+    <option value="CX">CHRISTMAS, ÎLE</option>
+    <option value="CY">CHYPRE</option>
+    <option value="CC">COCOS (KEELING), ÎLES</option>
+    <option value="CO">COLOMBIE</option>
+    <option value="KM">COMORES</option>
+    <option value="CG">CONGO</option>
+    <option value="CD">CONGO, LA RÉPUBLIQUE DÉMOCRATIQUE DU</option>
+    <option value="CK">COOK, ÎLES</option>
+    <option value="KR">CORÉE, RÉPUBLIQUE DE</option>
+    <option value="KP">CORÉE, RÉPUBLIQUE POPULAIRE DÉMOCRATIQUE DE</option>
+    <option value="CR">COSTA RICA</option>
+    <option value="CI">CÔTE D'IVOIRE</option>
+    <option value="HR">CROATIE</option>
+    <option value="CU">CUBA</option>
+    <option value="DK">DANEMARK</option>
+    <option value="DJ">DJIBOUTI</option>
+    <option value="DO">DOMINICAINE, RÉPUBLIQUE</option>
+    <option value="DM">DOMINIQUE</option>
+    <option value="EG">ÉGYPTE</option>
+    <option value="SV">EL SALVADOR</option>
+    <option value="AE">ÉMIRATS ARABES UNIS</option>
+    <option value="EC">ÉQUATEUR</option>
+    <option value="ER">ÉRYTHRÉE</option>
+    <option value="ES">ESPAGNE</option>
+    <option value="EE">ESTONIE</option>
+    <option value="US">ÉTATS-UNIS</option>
+    <option value="ET">ÉTHIOPIE</option>
+    <option value="FK">FALKLAND, ÎLES (MALVINAS)</option>
+    <option value="FO">FÉROÉ, ÎLES</option>
+    <option value="FJ">FIDJI</option>
+    <option value="FI">FINLANDE</option>
+    <option value="FR" selected="selected">FRANCE</option>
+    <option value="GA">GABON</option>
+    <option value="GM">GAMBIE</option>
+    <option value="GE">GÉORGIE</option>
+    <option value="GS">GÉORGIE DU SUD ET LES ÎLES SANDWICH DU SUD</option>
+    <option value="GH">GHANA</option>
+    <option value="GI">GIBRALTAR</option>
+    <option value="GR">GRÈCE</option>
+    <option value="GD">GRENADE</option>
+    <option value="GL">GROENLAND</option>
+    <option value="GP">GUADELOUPE</option>
+    <option value="GU">GUAM</option>
+    <option value="GT">GUATEMALA</option>
+    <option value="GG">GUERNESEY</option>
+    <option value="GN">GUINÉE</option>
+    <option value="GQ">GUINÉE ÉQUATORIALE</option>
+    <option value="GW">GUINÉE-BISSAU</option>
+    <option value="GY">GUYANA</option>
+    <option value="GF">GUYANE FRANÇAISE</option>
+    <option value="HT">HAÏTI</option>
+    <option value="HM">HEARD, ÎLE ET MCDONALD, ÎLES</option>
+    <option value="HN">HONDURAS</option>
+    <option value="HK">HONG-KONG</option>
+    <option value="HU">HONGRIE</option>
+    <option value="IM">ÎLE DE MAN</option>
+    <option value="UM">ÎLES MINEURES ÉLOIGNÉES DES ÉTATS-UNIS</option>
+    <option value="VG">ÎLES VIERGES BRITANNIQUES</option>
+    <option value="VI">ÎLES VIERGES DES ÉTATS-UNIS</option>
+    <option value="IN">INDE</option>
+    <option value="ID">INDONÉSIE</option>
+    <option value="IR">IRAN, RÉPUBLIQUE ISLAMIQUE D'</option>
+    <option value="IQ">IRAQ</option>
+    <option value="IE">IRLANDE</option>
+    <option value="IS">ISLANDE</option>
+    <option value="IL">ISRAËL</option>
+    <option value="IT">ITALIE</option>
+    <option value="JM">JAMAÏQUE</option>
+    <option value="JP">JAPON</option>
+    <option value="JE">JERSEY</option>
+    <option value="JO">JORDANIE</option>
+    <option value="KZ">KAZAKHSTAN</option>
+    <option value="KE">KENYA</option>
+    <option value="KG">KIRGHIZISTAN</option>
+    <option value="KI">KIRIBATI</option>
+    <option value="KW">KOWEÏT</option>
+    <option value="LA">LAO, RÉPUBLIQUE DÉMOCRATIQUE POPULAIRE</option>
+    <option value="LS">LESOTHO</option>
+    <option value="LV">LETTONIE</option>
+    <option value="LB">LIBAN</option>
+    <option value="LR">LIBÉRIA</option>
+    <option value="LY">LIBYENNE, JAMAHIRIYA ARABE</option>
+    <option value="LI">LIECHTENSTEIN</option>
+    <option value="LT">LITUANIE</option>
+    <option value="LU">LUXEMBOURG</option>
+    <option value="MO">MACAO</option>
+    <option value="MK">MACÉDOINE, L'EX-RÉPUBLIQUE YOUGOSLAVE DE</option>
+    <option value="MG">MADAGASCAR</option>
+    <option value="MY">MALAISIE</option>
+    <option value="MW">MALAWI</option>
+    <option value="MV">MALDIVES</option>
+    <option value="ML">MALI</option>
+    <option value="MT">MALTE</option>
+    <option value="MP">MARIANNES DU NORD, ÎLES</option>
+    <option value="MA">MAROC</option>
+    <option value="MH">MARSHALL, ÎLES</option>
+    <option value="MQ">MARTINIQUE</option>
+    <option value="MU">MAURICE</option>
+    <option value="MR">MAURITANIE</option>
+    <option value="YT">MAYOTTE</option>
+    <option value="MX">MEXIQUE</option>
+    <option value="FM">MICRONÉSIE, ÉTATS FÉDÉRÉS DE</option>
+    <option value="MD">MOLDOVA, RÉPUBLIQUE DE</option>
+    <option value="MC">MONACO</option>
+    <option value="MN">MONGOLIE</option>
+    <option value="ME">MONTÉNÉGRO</option>
+    <option value="MS">MONTSERRAT</option>
+    <option value="MZ">MOZAMBIQUE</option>
+    <option value="MM">MYANMAR</option>
+    <option value="NA">NAMIBIE</option>
+    <option value="NR">NAURU</option>
+    <option value="NP">NÉPAL</option>
+    <option value="NI">NICARAGUA</option>
+    <option value="NE">NIGER</option>
+    <option value="NG">NIGÉRIA</option>
+    <option value="NU">NIUÉ</option>
+    <option value="NF">NORFOLK, ÎLE</option>
+    <option value="NO">NORVÈGE</option>
+    <option value="NC">NOUVELLE-CALÉDONIE</option>
+    <option value="NZ">NOUVELLE-ZÉLANDE</option>
+    <option value="IO">OCÉAN INDIEN, TERRITOIRE BRITANNIQUE DE L'</option>
+    <option value="OM">OMAN</option>
+    <option value="UG">OUGANDA</option>
+    <option value="UZ">OUZBÉKISTAN</option>
+    <option value="PK">PAKISTAN</option>
+    <option value="PW">PALAOS</option>
+    <option value="PS">PALESTINIEN OCCUPÉ, TERRITOIRE</option>
+    <option value="PA">PANAMA</option>
+    <option value="PG">PAPOUASIE-NOUVELLE-GUINÉE</option>
+    <option value="PY">PARAGUAY</option>
+    <option value="NL">PAYS-BAS</option>
+    <option value="PE">PÉROU</option>
+    <option value="PH">PHILIPPINES</option>
+    <option value="PN">PITCAIRN</option>
+    <option value="PL">POLOGNE</option>
+    <option value="PF">POLYNÉSIE FRANÇAISE</option>
+    <option value="PR">PORTO RICO</option>
+    <option value="PT">PORTUGAL</option>
+    <option value="QA">QATAR</option>
+    <option value="RE">RÉUNION</option>
+    <option value="RO">ROUMANIE</option>
+    <option value="GB">ROYAUME-UNI</option>
+    <option value="RU">RUSSIE, FÉDÉRATION DE</option>
+    <option value="RW">RWANDA</option>
+    <option value="EH">SAHARA OCCIDENTAL</option>
+    <option value="BL">SAINT-BARTHÉLEMY</option>
+    <option value="KN">SAINT-KITTS-ET-NEVIS</option>
+    <option value="SM">SAINT-MARIN</option>
+    <option value="MF">SAINT-MARTIN</option>
+    <option value="PM">SAINT-PIERRE-ET-MIQUELON</option>
+    <option value="VA">SAINT-SIÈGE (ÉTAT DE LA CITÉ DU VATICAN)</option>
+    <option value="VC">SAINT-VINCENT-ET-LES GRENADINES</option>
+    <option value="SH">SAINTE-HÉLÈNE, ASCENSION ET TRISTAN DA CUNHA</option>
+    <option value="LC">SAINTE-LUCIE</option>
+    <option value="SB">SALOMON, ÎLES</option>
+    <option value="WS">SAMOA</option>
+    <option value="AS">SAMOA AMÉRICAINES</option>
+    <option value="ST">SAO TOMÉ-ET-PRINCIPE</option>
+    <option value="SN">SÉNÉGAL</option>
+    <option value="RS">SERBIE</option>
+    <option value="SC">SEYCHELLES</option>
+    <option value="SL">SIERRA LEONE</option>
+    <option value="SG">SINGAPOUR</option>
+    <option value="SK">SLOVAQUIE</option>
+    <option value="SI">SLOVÉNIE</option>
+    <option value="SO">SOMALIE</option>
+    <option value="SD">SOUDAN</option>
+    <option value="LK">SRI LANKA</option>
+    <option value="SE">SUÈDE</option>
+    <option value="CH">SUISSE</option>
+    <option value="SR">SURINAME</option>
+    <option value="SJ">SVALBARD ET ÎLE JAN MAYEN</option>
+    <option value="SZ">SWAZILAND</option>
+    <option value="SY">SYRIENNE, RÉPUBLIQUE ARABE</option>
+    <option value="TJ">TADJIKISTAN</option>
+    <option value="TW">TAÏWAN, PROVINCE DE CHINE</option>
+    <option value="TZ">TANZANIE, RÉPUBLIQUE-UNIE DE</option>
+    <option value="TD">TCHAD</option>
+    <option value="CZ">TCHÈQUE, RÉPUBLIQUE</option>
+    <option value="TF">TERRES AUSTRALES FRANÇAISES</option>
+    <option value="TH">THAÏLANDE</option>
+    <option value="TL">TIMOR-LESTE</option>
+    <option value="TG">TOGO</option>
+    <option value="TK">TOKELAU</option>
+    <option value="TO">TONGA</option>
+    <option value="TT">TRINITÉ-ET-TOBAGO</option>
+    <option value="TN">TUNISIE</option>
+    <option value="TM">TURKMÉNISTAN</option>
+    <option value="TC">TURKS ET CAÏQUES, ÎLES</option>
+    <option value="TR">TURQUIE</option>
+    <option value="TV">TUVALU</option>
+    <option value="UA">UKRAINE</option>
+    <option value="UY">URUGUAY</option>
+    <option value="VU">VANUATU</option>
+    <option value="VE">VENEZUELA, RÉPUBLIQUE BOLIVARIENNE DU</option>
+    <option value="VN">VIET NAM</option>
+    <option value="WF">WALLIS ET FUTUNA</option>
+    <option value="YE">YÉMEN</option>
+    <option value="ZM">ZAMBIE</option>
+    <option value="ZW">ZIMBABWE</option>
+
+</select>
+                                    </p>
+
+
+
+    <p name="reserved_mail1"  id="reserved_mail1_id_5cac6fd26aeaa" data-type="checkbox">
+      <label for="reserved_mail1">
+
+
+        <input type="hidden" name="reserved_mail1" value="0" />
+        <input type="checkbox" aria-describedby="nameHelp_reserved_mail1" name="reserved_mail1" data-scope="step2" data-required="" value="1"
+             checked />
+
+
+      Je souhaite recevoir l'actualité de l'Association par mail.
+                <span id="nameHelp_reserved_mail1" class="help"></span>
+      </label>
+
+
+
+
+
+
+
+      </p>
+
+
+
+
+
+
+    <p name="reserved_mail2"  id="reserved_mail2_id_5cac6fd26af68" data-type="checkbox">
+      <label for="reserved_mail2">
+
+
+        <input type="hidden" name="reserved_mail2" value="0" />
+        <input type="checkbox" aria-describedby="nameHelp_reserved_mail2" name="reserved_mail2" data-scope="step2" data-required="" value="1"
+              />
+
+
+      Je souhaite recevoir des informations sur les legs et donations.
+                <span id="nameHelp_reserved_mail2" class="help"></span>
+      </label>
+
+
+
+
+
+
+
+      </p>
+
+
+
+
+
+
+    <p name="reserved_recu1"  id="reserved_recu1_id_5cac6fd26b01d" data-type="radio">
+      <label for="reserved_recu1">
+
+
+
+      Je souhaite recevoir mon reçu fiscal
+        <span class="required">*</span>       <span id="nameHelp_reserved_recu1" class="help"></span>
+      </label>
+
+
+
+
+
+              <label for="reserved_recu1_1" class="table">
+                <input type="radio" name="reserved_recu1" value="1"
+                     class="column"
+                     data-scope="step2" data-required="1" checked />
+                <span class="column">par mail</span>
+              </label>
+
+
+              <label for="reserved_recu1_2" class="table">
+                <input type="radio" name="reserved_recu1" value="2"
+                     class="column"
+                     data-scope="step2" data-required="1"  />
+                <span class="column">par courrier</span>
+              </label>
+
+
+
+
+      </p>
+
+
+
+
+
+
+    <p name="reserved_cadre"  id="reserved_cadre_id_5cac6fd26b0dc" data-type="short">
+      <label for="reserved_cadre">
+
+
+
+      Ce qui m'a motivé à faire mon don :
+                <span id="nameHelp_reserved_cadre" class="help"></span>
+      </label>
+
+
+
+                                    <input type="text" aria-describedby="nameHelp_reserved_cadre" name="reserved_cadre" data-scope="step2" data-required="" value="&Eacute;v&eacute;nement, &eacute;mission, d&eacute;c&egrave;s ..."/>
+
+
+
+
+
+      </p>
+
+
+
+
+
+
+
+            <p id="required-info"><span class="required">*</span> <span class="help">Champs obligatoires (ces informations sont indispensables pour bénéficier de votre réduction fiscale)</span></p>
+
+            </fieldset>
+
+        </div> <!-- End Bloc -->
+
+        <div class="step-info">
+            <h4>Respect de votre vie privée</h4>
+                <p>Notre service donateurs est &agrave; votre disposition pour r&eacute;pondre &agrave; toutes vos questions li&eacute;es &agrave; vos droits et &agrave; vos dons. N&#39;h&eacute;sitez pas &agrave; nous contacter :</p>
+
+<p>Maud Boy - Responsable dons en ligne mboy@mecenat-cardiaque.org<br />
++33(0)1 49 24 02 02</p>
+
+<p>Mécénat Chirurgie Cardiaque<br />
+33 RUE SAINT AUGUSTIN <br />
+75002 PARIS-2E-ARRONDISSEMENT - France</p>
+
+<p>M&eacute;c&eacute;nat Chirurgie Cardiaque est une Association d’int&eacute;r&ecirc;t g&eacute;n&eacute;ral &agrave; caract&egrave;re humanitaire habilit&eacute;e juridiquement et fiscalement &agrave; recevoir des legs, donations et assurances-vie, exon&eacute;r&eacute;s de droits de succession et de mutation. Cela vous permet de b&eacute;n&eacute;ficier d&#39;une r&eacute;duction d&#39;imp&ocirc;ts de 75 %, dans la limite de 531 €, et 66% au del&agrave;, dans la limite de 20 % du revenu imposable.</p>
+        </div> <!-- End Step-info -->
+    </div> <!-- End Step-container -->
+</div> <!-- End Step-2 -->
+
+<div id="step-3" class="unit size1of3 lastUnit">
+    <div class="step-container">
+        <div class="step-title">
+            <h2>3. MON PAIEMENT</h2>
+        </div>
+        <div class="step-content">
+                    <div id="security-info">
+            <p>Plateforme de paiement 100% sécurisée</p>
+        </div>
+        <div class="payment">
+            <div id="payment_modes_once">
+
+<fieldset id="card-type">
+<h4><span class="payment_mode_title">Sélectionnez votre carte de paiement</span></h4>
+
+
+
+<p>
+<select name="cardtype" id="card">
+    <option value=""></option>
+    <option value="mastercard"> Mastercard</option>
+    <option value="visa"> Visa</option>
+    <option value="cartebleue"> Carte Bleue</option>
+
+</select>
+</p>
+</fieldset>
+
+<p id="card-number">
+    <label for="cardnumber">Saisissez votre numéro de carte bancaire</label>
+    <input type="text" name="cardnumber" id="cardnumber" maxlength="21" autocomplete="off" />
+</p>
+
+<p id="card-expiry">
+    <span>Date d'expiration</span>
+    <label>
+        <select name="cardmonth" id="cardmonth">
+            <option value=""> --- </option>
+            <option value="01">01 / Janvier</option>
+            <option value="02">02 / Février</option>
+            <option value="03">03 / Mars</option>
+            <option value="04">04 / Avril</option>
+            <option value="05">05 / Mai</option>
+            <option value="06">06 / Juin</option>
+            <option value="07">07 / Juillet</option>
+            <option value="08">08 / Août</option>
+            <option value="09">09 / Septembre</option>
+            <option value="10">10 / Octobre</option>
+            <option value="11">11 / Novembre</option>
+            <option value="12">12 / Décembre</option>
+        </select>
+    </label>
+    <label>
+        <select name="cardyear" id="cardyear">
+            <option value=""> --- </option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+
+        </select>
+    </label>
+</p>
+
+<p id="card-scode" class="line">
+    <label for="scode">Code de sécurité</label>
+    <input type="text" name="scode" id="scode" maxlength="5" autocomplete="off" />
+    <span class="help">Le code de sécurité est constitué des 3 derniers chiffres inscrits au dos de votre carte bancaire</span>
+    <span class="help amex" style="display: none;">Le code de sécurité est constitué des 4 derniers chiffres inscrits au recto de votre carte bancaire</span>
+</p>
+
+
+
+<p id="card-submit" class="payment-submit">
+        <input name="card_submit" type="image" src="/medias/app/btn_cb-1.png" alt="" id="card_submit" class="button" data-scope='card'/>
+
+</p>
+
+
+<fieldset id="paypal">
+
+    <h4><span class="payment_modes_separator">ou</span> <span class="payment_mode_title">faire un paiement par Paypal</span></h4>
+
+
+
+    <p id="paypal-submit" class="payment-submit">
+        <input name="paypal_submit" type="image" src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_paypal_paiements_fr.png" alt="Paypal" id="paypal_submit" class="button" data-scope='paypal' />
+    </p>
+
+
+
+</fieldset>
+
+
+
+
+    <p id="check-submit" class="payment-submit">
+                <input name="check_submit" type="image" src="/medias/app/bouton-cheque-1.jpg" alt="Paiement par chèque" id="check_submit" class="button" data-scope='check' />
+
+    </p>
+
+
+
+</div>
+
+<div id="payment_modes_regular" style="display:none">
+
+
+
+
+
+<p id="ddebit-submit" class="payment-submit">
+            <input name="pa_submit" type="image" src="/medias/app/bouton-pa-fr.png" alt="Prélèvement automatique" id="pa_submit" class="button" data-scope="pa" />
+
+</p>
+
+
+
+</div>        </div> <!-- End Payment -->
+        </div> <!-- End Bloc -->
+
+        <div class="step-info">
+            <h4>Donner en toute confiance</h4>
+                <p>Ce site internet est 100% s&eacute;curis&eacute;.</p>
+
+<p>Toutes les informations bancaires pour traiter le paiement sont crypt&eacute;es gr&acirc;ce au protocole SSL. Elles ne sont en aucun cas conserv&eacute;es sur nos syst&egrave;mes informatiques.</p>
+
+<p>Vos coordonn&eacute;es sont indispensables pour vous envoyer votre re&ccedil;u fiscal. Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s du 6 janvier 1978, vous disposez d&#39;un droit d&#39;acc&egrave;s, de modification, de rectification et de suppression des donn&eacute;es vous concernant.</p>
+
+<p><strong>Nos comptes sont certifi&eacute;s chaque ann&eacute;e par le cabinet d&#39;audit Ernst & Young</strong>.</p>
+
+<p><strong>L&#39;Association est membre de France G&eacute;n&eacute;rosit&eacute;s, le syndicat professionnel des organismes faisant appel aux g&eacute;n&eacute;rosit&eacute;s.</strong></p>
+
+        </div> <!-- End Step-info -->
+    </div> <!-- End Step-container -->
+</div> <!-- End Step 3 -->
+
+
+</form>
+</div> <!-- End Main -->
+
+<div id="footer" class="line">
+  <div id="powered" class="unit size1of3" style="display:block !important;">
+            <p style="display:block !important;"><a style="display:block !important;" href="http://www.iraiser.eu" title="Powered by iRaiser"><img style="display:block !important; min-width: 100px!important;min-height: 15px!important;" src="https://mecenat-cardiaque.iraiser.eu/themes/default//img/icons/powered-iraiser.png" alt="Powered by iRaiser" width="120" height="18"/></a></p>
+          </div>
+
+  <div id="copyright" class="unit size2of3 lastUnit">
+    <p>
+
+            <a href="https://mecenat-cardiaque.iraiser.eu/nos-credits" title="Cr&eacute;dits">Cr&eacute;dits</a> <span>|</span>
+      <a href="https://mecenat-cardiaque.iraiser.eu/mentions-legales" title="Mentions l&eacute;gales">Mentions l&eacute;gales</a> <span>|</span>
+      <a href="https://mecenat-cardiaque.iraiser.eu/contactez-nous" title="Contact">Contact</a>
+        </p>
+  </div>
+</div> <!-- End Footer -->
+</div> <!-- End Container -->
+
+
+<script type='text/javascript' src='https://grids.iraiser.eu/analytics.js'></script>
+<script type='text/javascript'>
+    try{ new iraiser_analytics({auth_key:'1366524d5cd2044840b0ef91738f30aa', params:'payment_form=1&campaign_id=15&payment_grid_once%5B0%5D=5000&payment_grid_once%5B1%5D=7500&payment_grid_once%5B2%5D=10000&payment_grid_once%5B3%5D=20000&payment_grid_regular%5B0%5D=2500&payment_grid_regular%5B1%5D=5000&payment_grid_regular%5B2%5D=7500&payment_grid_regular%5B3%5D=10000'});}catch(e){}
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32493795-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+  // select main div
+  const main = document.querySelector("#main");
+  // create new div
+  const wrapper = document.createElement('div');
+  // give id to the div
+  wrapper.id = "wrapper-mcc-reassurance"
+  // append new div at the end of the main div
+  main.appendChild(wrapper);
+
+  // create new div
+  const div_to_insert = document.createElement('div');
+  // give id to the div
+  div_to_insert.id = "mcc-reassurance"
+  // append new div at the end of the main div
+  wrapper.appendChild(div_to_insert);
+  // yellow background
+  div_to_insert.style.backgroundColor = "yellow";
+
+  const txt1 = document.querySelector("#step-1 > .step-container > .step-info");
+  const txt2 = document.querySelector("#step-2 > .step-container > .step-info");
+  const txt3 = document.querySelector("#step-3 > .step-container > .step-info");
+
+  // create new div
+  const txtR1 = document.createElement('div');
+  // give id to the div
+  txtR1.id = "mcc-reassurance-1";
+  // append new div at the end of the main div
+  div_to_insert.appendChild(txtR1);
+  // yellow background
+  txtR1.style.backgroundColor = "red";
+  // copy content into the div
+  txtR1.innerHTML = txt1.innerHTML;
+
+  // create new div
+  const txtR2 = document.createElement('div');
+  // give id to the div
+  txtR2.id = "mcc-reassurance-2";
+  // append new div at the end of the main div
+  div_to_insert.appendChild(txtR2);
+  // yellow background
+  txtR2.style.backgroundColor = "red";
+  // copy content into the div
+  txtR2.innerHTML = txt2.innerHTML;
+
+  // create new div
+  const txtR3 = document.createElement('div');
+  // give id to the div
+  txtR3.id = "mcc-reassurance-3";
+  // append new div at the end of the main div
+  div_to_insert.appendChild(txtR3);
+  // yellow background
+  txtR3.style.backgroundColor = "red";
+  // copy content into the div
+  txtR3.innerHTML = txt3.innerHTML;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+  background: url(images/image_fond_mcc_enfants-iraiser@2x.png) no-repeat top center !important;
+}
+
+#container, #main {
+   overflow: visible !important;
+}
+
+#logo img {
+  width: 60%;
+}
+
+#step-1 {
+  width: 100%;
+}
+
+#step-1 .step-container {
+  width: 50%;
+}
+
+.step-info {
+  background: blue !important;
+  display: none;
+}
+
+.step-title {
+  display: none;
+}
+
+#step-2, #step-3 {
+  width: 50%;
+}
+
+#once, h3 {
+  background-color: #E40520;
+  color: #fff;
+}
+
+.thumbs {
+  display: none;
+}
+
+#wrapper-mcc-reassurance {
+  background-color: #F0F0F0 !important;
+  width: 100vw !important;
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mcc-reassurance {
+  display: flex;
+  height: auto !important;
+  width: 69%;
+}
+
+#mcc-reassurance-1, #mcc-reassurance-2, #mcc-reassurance-3  {
+  width: 33.33%;
+}
