@@ -11,6 +11,18 @@ body {
   font-family: "proximanova-regular" !important;
 }
 
+header.main-header .top-bar-section {
+    background-color: #F0F0F0;
+}
+
+.main-header .top-bar-section .has-dropdown > a:after {
+    border-color: #000 transparent transparent transparent;
+}
+
+header.main-header #header-header {
+  box-shadow: none;
+}
+
 .habillage .row {
   width: 100%;
   max-width: 100%;
