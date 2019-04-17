@@ -24,8 +24,14 @@ body {
 }
 .habillage .section-projets .row {
   max-width: 71.25em;
-
+  margin: 0 auto;
 }
+
+.row h1 {
+  padding: 0;
+  height: auto;
+}
+
 .container {
   padding: 0 !important;
 }
