@@ -16,6 +16,10 @@ body {
   max-width: 100%;
 }
 
+.bg-color-light-blurred {
+    background: none !important;
+}
+
 /*HOMEPAGE*/
 h1 {
   margin: 0;
@@ -31,28 +35,38 @@ h2 {
   font-size: 60px;
   font-weight: 500;
   line-height: 48px;
+  font-family: "proximanova-regular";
+
 }
 
 h3 {
   font-size: 40px;
   font-weight: 500;
   line-height: 49px;
+  font-family: "proximanova-regular";
+
 }
 
 h4 {
   font-size: 28px;
   line-height: 34px;
+  font-family: "proximanova-regular";
+
 }
 
 h5 {
   font-size: 14px;
   letter-spacing: 0.7px;
   line-height: 16px;
+  font-family: "proximanova-regular";
+
 }
 
 p{
   font-size: 20px;
   line-height: 24px;
+  font-family: "proximanova-regular";
+
 }
 
 a {
