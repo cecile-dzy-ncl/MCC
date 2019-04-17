@@ -1,13 +1,34 @@
-body {
-  background: url(images/image_fond_mcc_enfants-iraiser@2x.png) no-repeat top center !important;
+@font-face {
+  font-family: 'proximanova-regular';
+  src: url('https://cecile-dzy-ncl.github.io/MCC/fonts/proximanova-regular-webfont.woff2') format('woff2'),
+       url('https://cecile-dzy-ncl.github.io/MCC/fonts/proximanova-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-#container, #main {
-   overflow: visible !important;
+body {
+  /*background: blue !important;*/
+  background: url(images/image_fond_mcc_enfants-iraiser@2x.png) no-repeat top/100% !important;
+  color: #000;
+  background-color: #fff!important;
+  font-family: 'proximanova-regular' !important;
+  text-shadow: none;
+  font-size: 16px !important;
 }
+
+#container {
+  width: 100% !important;
+}
+
+
+/*#container, #main {
+   overflow: visible !important;
+}*/
 
 #logo img {
-  width: 60%;
+  /*height: 10%;*/
+  width: 40%;
+  margin-left: 250px;
 }
 
 #step-1 {
@@ -15,7 +36,16 @@ body {
 }
 
 #step-1 .step-container {
-  width: 50%;
+  width: 33%;
+  margin-left: 250px;
+}
+
+.step-content {
+  background: none !important;
+}
+
+#step-1 .step-content {
+  height: 550px !important;
 }
 
 .step-info {
@@ -31,13 +61,51 @@ body {
   width: 50%;
 }
 
-#once, h3 {
-  background-color: #E40520;
-  color: #fff;
+#once, #regular {
+  border-radius: 5px;
+  background: none !important;
+}
+
+#once h3, #regular h3 {
+  background-color: #E40520 !important;
+  color: #fff !important;
+  font-size: 95% !important;
+  width: 50%;
+  text-align: center;
+}
+
+#regular h3 {
+  margin-left: 50%;
+}
+
+#or {
+  display: none;
+}
+
+#bloc-amount-once {
+  background-color: #fff !important;
+}
+
+#bloc-amount-regular {
+  background-color: #fff !important;
 }
 
 .thumbs {
   display: none;
+}
+
+.amount ul li label span {
+  height: 50px;
+  width: 75px;
+  border: 1px solid #9297A3 !important;
+  border-radius: 5px !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+.amount ul.radio-inline {
+  padding-left: 8px !important;
 }
 
 #wrapper-mcc-reassurance {
@@ -56,9 +124,29 @@ body {
 #mcc-reassurance {
   display: flex;
   height: auto !important;
-  width: 69%;
+  width: 940px;
 }
 
 #mcc-reassurance-1, #mcc-reassurance-2, #mcc-reassurance-3  {
   width: 33.33%;
+}
+
+a.boutonValidationStep1{
+  margin: 21%;
+  padding: 10px 45px;
+  border-radius: 5px;
+  background-color: #E40520;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.07px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.boutonValidationStep1:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
 }
