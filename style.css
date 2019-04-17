@@ -1,3 +1,15 @@
+.banner-entreprises {
+  width: 100%;
+  background-color: #F0F0F0;
+  background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/imageheaderentreprise22x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+/////////////
+
 @font-face {
   font-family: 'proximanova-regular';
   src: url('https://cecile-dzy-ncl.github.io/MCC/fonts/proximanova-regular-webfont.woff2') format('woff2'),
@@ -14,10 +26,30 @@ body {
 .habillage .row {
   width: 100%;
   max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.habillage .row .row {
+  max-width: 71.25em;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 !important;
+}
+
+.banner {
+  height: 412px;
+  background-size: cover;
 }
 
 .bg-color-light-blurred {
-    background: none !important;
+  background: none !important;
+}
+
+.habillage::after {
+  background: none !important;
 }
 
 /*HOMEPAGE*/
@@ -140,7 +172,7 @@ a:hover {
 }
 
 .banner-homepage {
-  background-image: url(images/IMAGE_HOME.jpg);
+  background-image: url(https://cecile-dzy-ncl.github.io/MCC/images/IMAGE_HOME.jpg);
   /* background-color: rgba(0,0,0,47.2); */
   background-size: cover;
   height: 631px;
@@ -331,7 +363,7 @@ a:hover {
 }
 
 .banner-collecte-perso {
-  background-image: url(images/image_header_collecte_personnelle@2x.png);
+  background-image: url(https://cecile-dzy-ncl.github.io/MCC/images/image_header_collecte_personnelle@2x.png);
   background-size: cover;
 }
 
@@ -449,7 +481,7 @@ hr {
 .banner-entreprises {
   width: 100%;
   background-color: #F0F0F0;
-  background-image: url(images/image_header_entreprise.png);
+  background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/imageheaderentreprise22x.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -457,7 +489,7 @@ hr {
 /*ASSOCIATION*/
 
 .banner-association {
-  background-image: url(images/image_header_page_mcc@2x.png);
+  background-image: url(https://cecile-dzy-ncl.github.io/MCC/images/image_header_page_mcc@2x.png);
   background-size: cover;
 }
 
@@ -501,7 +533,7 @@ hr {
 /*CONSEILS & OUTILS*/
 
 .banner-conseils-outils {
-  background-image: url(images/image_header_conseil_collecte@2x.png);
+  background-image: url(https://cecile-dzy-ncl.github.io/MCC/images/image_header_conseil_collecte@2x.png);
   background-size: cover;
 }
 
