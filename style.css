@@ -57,6 +57,10 @@ section.event-head {
   background: #fff;
 }
 
+section.event-head row:nth-child(2) {
+  display: none;
+}
+
 section.event-head .intro-my-event p {
   font-size: 20px;
   line-height: 24px;
@@ -350,7 +354,7 @@ a:hover {
 
 .line {
   box-sizing: border-box;
-  height: 26px;
+  height: 70px;
   width: 1px;
   border: 0.7px solid #000000;
   margin: 60px;
