@@ -57,6 +57,48 @@ section.event-head {
   background-color: #fff;
 }
 
+#indexs-index .section-home-projects.first-section {
+  background-color: #F0F0F0;
+}
+
+.infos-money .progress .graph-bar {
+  background-color: #E40520;
+}
+
+.top-bar-section .dropdown {
+  background: none !important;
+}
+
+.main-header #main-nav .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+  background-color: #F0F0F0;
+  color: #000;
+  margin: 1px 0;
+}
+
+.main-header #main-nav .top-bar-section .dropdown li:not(.has-form) a:not(.button):hover {
+  background-color: #dddddd;
+}
+
+.top-bar-section {
+  color: #000
+}
+
+.main-header a:hover, .main-header a:focus {
+  color: #000;
+}
+
+.dropdown {
+  margin-top: 1px;
+}
+
+.progress {
+  background: none;
+  border: none;
+}
+.infos-money .progress .graph-barBack {
+  border-radius: 0;
+}
+
 .project-detail-data {
   background: #F0F0F0;
   color: #000 !important;
@@ -393,7 +435,7 @@ a:hover {
   align-items: center;
   text-align: center;
   color: #fff !important;
-  margin: 50px 0;
+  margin: 50px 0 0 0;
 }
 
 .help-content {
