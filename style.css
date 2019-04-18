@@ -34,13 +34,23 @@ a.logo img {
   padding: 0;
 }
 
-.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, .project_event_description, section.event-head {
+.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, section.project_event_description, section.event-head, section.section-my-event {
   max-width: 71.25em;
   margin: 0 auto;
 }
 
 section.section-my-event .projects-list .panel h3 a, section.section-my-event .projects-list .panel h3 a:hover, section.section-my-event .projects-list .panel h3 a:focus {
   font-size: large;
+}
+
+section.event-head {
+  background-color: #F0F0F0;
+}
+
+.intro-my-event h2 {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 30px;
 }
 
 #project_tabs .bg-color-light {
