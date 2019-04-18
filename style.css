@@ -35,7 +35,12 @@ a.logo img {
 
 .habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, .project_event_description {
   max-width: 71.25em;
+  width: 71.25em;
   margin: 0 auto;
+}
+
+#project_tabs .bg-color-light {
+  background-color: #fff;
 }
 
 .project-detail-data {
