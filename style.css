@@ -996,6 +996,9 @@ hr {
   margin: 50px 0;
 }
 
+#show_description {
+  text-align: left;
+}
 .stats-event {
   height: 80px;
   display: flex;
