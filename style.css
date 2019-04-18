@@ -260,6 +260,7 @@ a:hover {
   width: 1140px;
   margin: auto;
   color: #000;
+  text-align: center;
 }
 
 .projects-text {
@@ -269,11 +270,10 @@ a:hover {
 .projects-row-1 {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
-}
-
-.projects-row-1 {
+  margin: auto;
   width: 1140px;
+  color: #000;
+  text-align: center;
 }
 
 .projects-row-1 .project {
