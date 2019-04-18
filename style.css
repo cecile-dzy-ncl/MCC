@@ -136,8 +136,8 @@ a:hover {
 
 .button {
   border-radius: 5px;
-  background-color: #E40520;
-  font-size: 14px;
+  background-color: #E40520 !important;
+  font-size: 14px !important;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
