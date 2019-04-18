@@ -63,6 +63,7 @@ section.event-head {
 
 .infos-money .progress .graph-bar {
   background-color: #E40520;
+  border-radius: 0;
 }
 
 .progress {
@@ -336,6 +337,10 @@ a:hover {
 
 .projects-text {
   text-align: center;
+}
+
+.projects-text h3, .stat h2 {
+  color: #000;
 }
 
 .projects-row-1 {
