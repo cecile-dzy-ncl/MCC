@@ -57,7 +57,7 @@ section.event-head {
   background: #fff;
 }
 
-section.event-head row:nth-child(2) {
+.details-my-event {
   display: none;
 }
 
