@@ -57,6 +57,11 @@ section.event-head {
   background: #fff;
 }
 
+section.event-head .row:nth-child(2) .small-12:nth-child(2) {
+  background: #fff;
+}
+
+
 section.section-my-event .projects-list .panel h3 a, section.section-my-event .projects-list .panel h3 a:hover, section.section-my-event .projects-list .panel h3 a:focus {
   font-size: large;
 }
