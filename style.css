@@ -240,6 +240,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: #000;
 }
 
 .stat {
@@ -258,6 +259,7 @@ a:hover {
   flex-direction: column;
   width: 1140px;
   margin: auto;
+  color: #000;
 }
 
 .projects-text {
@@ -268,6 +270,10 @@ a:hover {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+}
+
+.projects-row-1 {
+  width: 1140px;
 }
 
 .projects-row-1 .project {
