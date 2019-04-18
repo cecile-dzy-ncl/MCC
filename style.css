@@ -917,12 +917,12 @@ hr {
 
 /*GRANDE COLLECTE*/
 
-.g-c-btns, .stats-event {
+.stats-event {
   width: 100%;
   display: flex;
-  /*background-color: blue;*/
   justify-content: center;
   align-items: center;
+  margin: 20px auto;
 }
 
 .g-c-btn {
@@ -955,14 +955,12 @@ hr {
 .stats-event {
   height: 80px;
   display: flex;
-  background-color: yellow;
 }
 
 .stats-event-nb {
   display: flex;
   height: 100%;
   flex-direction: column;
-  background-color: blue;
   justify-content: space-evenly;
   align-items: flex-start;
 }
@@ -981,7 +979,6 @@ hr {
   justify-content: space-evenly;
   align-items: center;
   width: 60%;
-  background-color: beige;
   height: 100%;
 }
 
