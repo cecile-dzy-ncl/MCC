@@ -52,11 +52,14 @@ section.event-head {
   color: black;
 }
 
-.infos-money .infos-money-details .info-money.detail {
+.infos-money .infos-money-details .info-money.detail, .infos-money .infos-money-details .clearfix {
   color: #000 !important;
   font-family: 'proximanova-regular' !important;
 }
 
+#projects .button {
+  margin: 0 504px 48px 504px !important;
+}
 
 .intro-my-event h2 {
   font-size: 24px;
@@ -329,7 +332,7 @@ a:hover {
   box-sizing: border-box;
   height: 139px;
   width: 1px;
-  border: 1px solid #000000;
+  border: 0.9px solid #000000;
 }
 
 .projects {
@@ -356,10 +359,19 @@ a:hover {
 .section-home-projects {
   color: #000;
   margin-bottom: 100px !important;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  text-align: center;
 }
 
 .projects-text h3, .stat h2 {
   color: #000;
+}
+
+.stat p {
+  text-align: center !important;
 }
 
 .projects-row-1 {
