@@ -46,6 +46,7 @@ a.logo img {
 .row h1 {
   padding: 0;
   height: auto;
+  margin: auto;
 }
 
 .container {
@@ -63,6 +64,10 @@ a.logo img {
 
 .habillage::after {
   background: none !important;
+}
+
+.event-details {
+  background: #f0f0f0;
 }
 
 /*HOMEPAGE*/
