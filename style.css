@@ -33,9 +33,14 @@ a.logo img {
   padding: 0;
 }
 
-.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, section .row {
+.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, section.row {
   max-width: 71.25em;
   margin: 0 auto;
+}
+
+.project-detail-data {
+  background: #F0F0F0;
+  color: #000;
 }
 
 #indexs-index .intro, .intro .columns {
