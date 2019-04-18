@@ -33,7 +33,7 @@ a.logo img {
   padding: 0;
 }
 
-.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row {
+.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .habillage .section-projet-details .row {
   max-width: 71.25em;
   margin: 0 auto;
 }
