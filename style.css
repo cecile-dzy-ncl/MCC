@@ -594,6 +594,11 @@ hr {
   align-items: center;
 }
 
+.project-btn-fb a:hover {
+  background-color: #0b5ebe;
+  color: #FFFFFF;
+}
+
 .project-description-cp {
   height: 375px;
 }
