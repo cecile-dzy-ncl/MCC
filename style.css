@@ -86,6 +86,7 @@ section.event-head {
 
 .project-btn-fb {
   background-image: url(https://cecile-dzy-ncl.github.io/MCC/images/bouton_fb.png);
+  width: 100%;
 }
 
 .infos-money .progress .graph-bar {
