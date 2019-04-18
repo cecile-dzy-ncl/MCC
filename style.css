@@ -12,6 +12,10 @@ body {
   font-weight: 500 !important;
 }
 
+h3 {
+  color: #000 !important;
+}
+
 header.main-header .top-bar-section {
     background-color: #F0F0F0;
 }
@@ -291,9 +295,9 @@ a:hover {
   margin: 20px;
 }
 
-.project-description a:hover {
+.project-description a:hover, .camp-description a:hover {
   background-color: #990004;
-  color: #fff;
+  color: #fff !important;
 }
 
 .banner-homepage {
