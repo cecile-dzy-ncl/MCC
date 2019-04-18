@@ -48,6 +48,15 @@ a.logo img {
   margin: 0;
 }
 
+.projet-head {
+  background-color: #fff;
+}
+
+section.section-projet-details h1 {
+  text-align: left;
+  color: #000;
+}
+
 .row h1 {
   padding: 0;
   height: auto;
