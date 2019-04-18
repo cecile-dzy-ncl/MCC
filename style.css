@@ -34,7 +34,7 @@ a.logo img {
   padding: 0;
 }
 
-.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, .project_event_description, .event-head {
+.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, .project_event_description, section.event-head {
   max-width: 71.25em;
   margin: 0 auto;
 }
