@@ -112,6 +112,10 @@ section.section-my-event .projects-list .panel h3 a, section.section-my-event .p
   border-radius: 0;
 }
 
+.stats-event .progress {
+  width: 80%;
+}
+
 .stats-event .progress .graph-barBack {
   border-radius: 0;
   background-color: #e2e2e2;
@@ -917,14 +921,6 @@ hr {
 
 /*GRANDE COLLECTE*/
 
-.stats-event {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px auto;
-}
-
 .g-c-btn {
   margin: 0 auto;
   padding: 6px 30px;
@@ -955,6 +951,11 @@ hr {
 .stats-event {
   height: 80px;
   display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
 }
 
 .stats-event-nb {
@@ -984,6 +985,16 @@ hr {
 
 .stats-event-montants {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  width: 80%;
+}
+
+.stats-event-m-1, .stats-event-m-2 {
+  font-size: 20px;
+  line-height: 48px;
+}
+
+.stats-event span {
+  font-size: 32px;
 }
