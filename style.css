@@ -366,7 +366,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: #fff !important;
   margin: 50px 0;
 }
 
@@ -393,7 +393,7 @@ a:hover {
   margin: 0 auto;
   padding: 6px 47px;
   border-radius: 5px;
-  border: 1px #fff solid;
+  border: 2px #fff solid;
   color: #FFFFFF;
   font-family: "Proxima Nova";
   font-size: 15px;
