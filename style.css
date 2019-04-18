@@ -50,7 +50,7 @@ a.logo img {
 
 section.section-my-event {
   background: #F0F0F0;
-  padding-top: 50px;
+  padding: 50px;
 }
 
 section.event-head {
@@ -61,8 +61,13 @@ section.event-head {
   display: none;
 }
 
+.people .rounded {
+    border: none !important;
+}
+
 section.event-head .intro-my-event {
   margin: 0 30px 70px 30px;
+  padding: 0 25px;
 }
 
 section.event-head .intro-my-event p {
@@ -394,8 +399,28 @@ a:hover {
   color: #fff
 }
 
-.block-share-container {
-  display: none;
+.project-detail-data {
+  padding-top: 30px;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_give {
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+#show_team {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.percent canvas {
+  background-color: #000;
+  color: #000;
+}
+
+.contributeurs span {
+  font-family: "proximanova-regular";
 }
 
 .infos-money .current-amount, .infos-money .pledge-amount, .infos-money .objectif-amount, .infos-money .chart-wrap .percent {
