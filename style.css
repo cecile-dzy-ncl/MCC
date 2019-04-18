@@ -112,6 +112,19 @@ section.section-my-event .projects-list .panel h3 a, section.section-my-event .p
   border-radius: 0;
 }
 
+.stats-event .progress .graph-bar {
+  background-color: #E40520;
+  border-radius: 0;
+}
+
+.stats-event .progress .graph-barBack {
+  border-radius: 0;
+  background-color: #e2e2e2;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+
 .progress {
   background: none;
   border: none;
