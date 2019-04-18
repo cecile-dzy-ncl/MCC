@@ -57,8 +57,16 @@ section.event-head {
   background: #fff;
 }
 
+section.event-head .intro-my-event p {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "proximanova-regular";
+  font-weight: 500;
+  color: #000;
+}
+
 section.event-head .row:nth-child(2) {
-  background: #f2f5f8;
+  background: red;
 }
 
 
