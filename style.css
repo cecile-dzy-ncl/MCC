@@ -363,6 +363,9 @@ a:hover {
   display: none;
 }
 
+.infos-money .current-amount, .infos-money .pledge-amount, .infos-money .objectif-amount, .infos-money .chart-wrap .percent {
+  font-family: "proximanova-regular";
+}
 .stats {
   width: 1140px;
   margin: 100px auto;
