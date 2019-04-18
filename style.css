@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: "proximanova-regular" !important;
   font-weight: 500 !important;
+  text-align: center !important;
 }
 
 h3 {
@@ -77,6 +78,10 @@ section.event-head {
 
 #indexs-index .section-home-projects.first-section {
   background-color: #F0F0F0;
+}
+
+.coup-coeur h3 {
+  margin: 50px;
 }
 
 .infos-money .progress .graph-bar {
