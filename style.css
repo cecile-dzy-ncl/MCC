@@ -35,6 +35,10 @@ header.main-header #header-header {
   margin: 0 auto;
 }
 
+#indexs-index .intro, .intro .columns {
+  padding: 0;
+  margin: 0;
+}
 
 .row h1 {
   padding: 0;
@@ -245,14 +249,14 @@ a:hover {
 }
 
 #project-logo-m {
-  height: 80px;
+  height: 100px;
   position: absolute;
   bottom: -40px;
   left: 34%;
 }
 
 #project-logo-e {
-  height: 80px;
+  height: 100px;
   position: absolute;
   bottom: -40px;
   left: 43%;
