@@ -190,9 +190,10 @@ section.section-my-event .projects-list .panel h3 a, section.section-my-event .p
 
 
 
-.project-detail-data {
+.habillage .project-detail-data {
   background: #F0F0F0;
   color: #000 !important;
+  padding-top: 30px;
 }
 
 .project_boutons_give {
@@ -397,10 +398,6 @@ a:hover {
 
 .banner-text p, .wrapper-help p {
   color: #fff
-}
-
-.project-detail-data {
-  padding-top: 30px;
 }
 
 section.section-projet-details .project-detail-data .project_boutons_give {
