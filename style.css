@@ -411,16 +411,20 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   line-height: 22px;
 }
 
-.percent canvas {
+.habillage .percent canvas {
   background-color: #000;
   color: #000;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_join {
+  height: 35px;
 }
 
 .contributeurs span {
   font-family: "proximanova-regular";
 }
 
-.infos-money, .jours-restants {
+.habillage .infos-money, .jours-restants {
   text-align: left !important;
 }
 
@@ -441,7 +445,7 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   display: none;
 }
 
-.social-btns .social_network a .social_network_share {
+.block-share-container .social-btns .social_network a .social_network_share {
   background-color: #E40520;
 }
 
