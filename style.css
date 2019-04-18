@@ -84,6 +84,10 @@ section.event-head {
   margin: 50px;
 }
 
+.project-btn-fb {
+  background-image: url(https://cecile-dzy-ncl.github.io/MCC/images/btn_fb.png);
+}
+
 .infos-money .progress .graph-bar {
   background-color: #E40520;
   border-radius: 0;
@@ -573,7 +577,7 @@ hr {
   border: 0.8px #f0f0f0 solid;
 }
 
-.project-btn-fb {
+/*.project-btn-fb {
   margin: 0 auto;
   padding: 6px 10px;
   border-radius: 5px;
@@ -588,7 +592,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 .project-description-cp {
   height: 375px;
