@@ -9,6 +9,7 @@
 body {
   margin: 0;
   font-family: "proximanova-regular" !important;
+  font-weight: 500 !important;
 }
 
 header.main-header .top-bar-section {
@@ -59,6 +60,11 @@ a.logo img {
 
 .fa-gift {
   display: none;
+}
+
+.banner h4 {
+  color: #fff;
+  margin: 20px 0;
 }
 
 #indexs-index .intro, .intro .columns {
@@ -222,7 +228,7 @@ a:hover {
 
 .banner-text {
   width: 900px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 60px auto;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
