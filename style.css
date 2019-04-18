@@ -65,6 +65,15 @@ section.event-head {
   background-color: #E40520;
 }
 
+.progress {
+  background: none;
+  border: none;
+}
+
+.infos-money .progress .graph-barBack {
+  border-radius: 0;
+}
+
 .top-bar-section .dropdown {
   background: none !important;
 }
@@ -91,13 +100,7 @@ section.event-head {
   margin-top: 1px;
 }
 
-.progress {
-  background: none;
-  border: none;
-}
-.infos-money .progress .graph-barBack {
-  border-radius: 0;
-}
+
 
 .project-detail-data {
   background: #F0F0F0;
