@@ -594,7 +594,7 @@ hr {
   align-items: center;
 }
 
-.project-btn-fb a:hover {
+.project-description .project-btn-fb a:hover {
   background-color: #0b5ebe;
   color: #FFFFFF;
 }
