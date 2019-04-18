@@ -351,9 +351,9 @@ a:hover {
 .line {
   box-sizing: border-box;
   height: 26px;
-  width: 2px;
-  border: 1px solid #000000;
-  margin: 20px;
+  width: 1px;
+  border: 0.7px solid #000000;
+  margin: 60px;
 }
 
 .project-description a:hover, .camp-description a:hover {
