@@ -118,13 +118,14 @@ h1 {
   font-size: 96px;
   line-height: 96px;
   text-align: center;
+  font-weight: 500;
 }
 h2 {
   font-size: 60px;
   font-weight: 500;
   line-height: 48px;
   font-family: "proximanova-regular";
-
+  font-weight: 500;
 }
 
 h3 {
@@ -132,14 +133,14 @@ h3 {
   font-weight: 500;
   line-height: 49px;
   font-family: "proximanova-regular";
-
+  font-weight: 500;
 }
 
 h4 {
   font-size: 28px;
   line-height: 34px;
   font-family: "proximanova-regular";
-
+  font-weight: 500;
 }
 
 h5 {
@@ -147,18 +148,19 @@ h5 {
   letter-spacing: 0.7px;
   line-height: 16px;
   font-family: "proximanova-regular";
-
+  font-weight: 500;
 }
 
 p{
   font-size: 20px;
   line-height: 24px;
   font-family: "proximanova-regular";
-
+  font-weight: 500;
 }
 
 a {
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
@@ -267,6 +269,10 @@ a:hover {
   margin: auto;
   color: #000;
   text-align: center;
+}
+
+.projects p, .projects-row-1 p {
+  text-align: center !important;
 }
 
 .projects-text {
@@ -383,6 +389,10 @@ a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.help-content a, .help-content h4 {
+  color: #fff !important;
 }
 
 .help-shop a{
