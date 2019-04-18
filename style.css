@@ -22,6 +22,9 @@ header.main-header .top-bar-section {
 header.main-header #header-header {
   box-shadow: none;
 }
+a.logo img {
+  margin: 23px auto 9px auto;
+}
 
 .habillage .row {
   width: 100%;
@@ -131,24 +134,12 @@ a:hover {
   margin-right: 150px;
 }
 
-.btn-connexion {
-  height: 50px;
-  width: 186px;
+.button {
   border-radius: 5px;
   background-color: #E40520;
-  margin: 50px;
-  border: none;
-}
-
-.connexion {
-  height: 39px;
-  width: 186px;
-  color: #FFFFFF;
-  font-family: "proximanova-regular";
   font-size: 14px;
   letter-spacing: 1px;
-  line-height: 32px;
-  text-align: center;
+  text-transform: uppercase;
 }
 
 .row-1 {
