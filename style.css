@@ -291,9 +291,13 @@ a:hover {
   margin: 20px;
 }
 
+.project-description a:hover {
+  background-color: #990004;
+  color: #fff;
+}
+
 .banner-homepage {
   background-image: url(https://cecile-dzy-ncl.github.io/MCC/images/IMAGE_HOME.png);
-  /* background-color: rgba(0,0,0,47.2); */
   background-size: cover;
   height: 631px;
   display: flex;
