@@ -47,6 +47,17 @@ section.event-head {
   background-color: #F0F0F0;
 }
 
+.projects-list .panel h3 a, .projects-list .panel h3 a:hover, .projects-list .panel h3 a:focus {
+  text-transform: none;
+  color: black;
+}
+
+.infos-money .infos-money-details .info-money.detail {
+  color: #000 !important;
+  font-family: 'proximanova-regular' !important;
+}
+
+
 .intro-my-event h2 {
   font-size: 24px;
   font-weight: 500;
