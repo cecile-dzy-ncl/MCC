@@ -43,9 +43,13 @@ a.logo img {
   padding: 0;
 }
 
-.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, section.project_event_description, section.event-head, section.section-my-event {
+.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, section.project_event_description, section.event-head, section.section-my-event .row {
   max-width: 71.25em;
   margin: 0 auto;
+}
+
+section.section-my-event {
+  background: #F0F0F0;
 }
 
 section.section-my-event .projects-list .panel h3 a, section.section-my-event .projects-list .panel h3 a:hover, section.section-my-event .projects-list .panel h3 a:focus {
