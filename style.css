@@ -449,6 +449,9 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   background-color: #E40520;
 }
 
+.block-share-container {
+  display: none;
+}
 .stat {
   padding: 0 30px;
 }
