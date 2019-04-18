@@ -224,6 +224,7 @@ h2 {
   line-height: 48px;
   font-family: "proximanova-regular";
   font-weight: 500;
+  color: #000;
 }
 
 h3 {
@@ -232,6 +233,7 @@ h3 {
   line-height: 49px;
   font-family: "proximanova-regular";
   font-weight: 500;
+  color: #000;
 }
 
 h4 {
@@ -239,6 +241,7 @@ h4 {
   line-height: 34px;
   font-family: "proximanova-regular";
   font-weight: 500;
+  color: #000;
 }
 
 h5 {
@@ -247,6 +250,7 @@ h5 {
   line-height: 16px;
   font-family: "proximanova-regular";
   font-weight: 500;
+  color: #000;
 }
 
 p{
@@ -254,6 +258,7 @@ p{
   line-height: 24px;
   font-family: "proximanova-regular";
   font-weight: 500;
+  color: #000;
 }
 
 a {
