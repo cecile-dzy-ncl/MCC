@@ -312,9 +312,8 @@ a:hover {
 }
 
 .stats {
-  height: 343px;
   width: 1140px;
-  margin: auto;
+  margin: 100px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -348,6 +347,10 @@ a:hover {
 
 .projects-text {
   text-align: center;
+}
+
+.projects-text h3 {
+  margin-bottom: 100px !important;
 }
 
 .projects-text h3, .stat h2 {
