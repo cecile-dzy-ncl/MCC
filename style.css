@@ -125,7 +125,7 @@ section.section-my-event .projects-list .panel h3 a, section.section-my-event .p
 }
 
 .stats-event .progress .graph-bar {
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px;
   background-color: #E40520;
   cursor: pointer;
   position: relative;
