@@ -353,6 +353,11 @@ a:hover {
   margin-bottom: 100px !important;
 }
 
+.section-home-projects {
+  color: #000;
+  margin-bottom: 100px !important;
+}
+
 .projects-text h3, .stat h2 {
   color: #000;
 }
