@@ -1252,6 +1252,32 @@ hr {
     flex-direction: column;
 }
 
+section.section-my-event {
+     padding: 0px;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_give {
+    font-size: 14px;
+    padding-top: 13px;
+}
+
+.project_content p {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.footerc-content {
+    flex-direction: column;
+}
+
+#footer-collecte {
+    height: auto;
+}
+
+.footerc-left, .footerc-right {
+    height: auto;
+}
+
 }
 
 
