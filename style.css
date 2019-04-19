@@ -48,6 +48,10 @@ a.logo img {
   margin: 0 auto;
 }
 
+.aside-event-list {
+  display: none;
+}
+
 section.section-my-event {
   background: #F0F0F0;
   padding: 50px;
