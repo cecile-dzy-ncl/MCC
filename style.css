@@ -267,6 +267,13 @@ section.section-projet-details h1 {
   align-items: center;
 }
 
+.footerc-left, .footerc-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*HOMEPAGE*/
 h1 {
