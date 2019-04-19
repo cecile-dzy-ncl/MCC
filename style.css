@@ -921,25 +921,18 @@ hr {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  height: 555px;
+  height: 980px;
 }
 
-.outils-video, .outils-guide {
+.outils-guide {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .outils-guide img {
-  height: 392px;
-}
-
-.img-insta, .img-fb {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  height: 794px;
 }
 
 .outils-fb-insta {
@@ -949,31 +942,10 @@ hr {
   width: 50%;
 }
 
-.img-insta {
-  width: 80%;
+.outils-fb-insta img {
+  width: 97%;
 }
 
-.img-insta img {
-  width: 30%;
-  height: auto;
-}
-
-.img-fb {
-  width: 90%;
-}
-
-.img-fb img {
-  width: 30%;
-  height: auto;
-}
-
-.img-fb img:nth-child(1), .img-fb img:nth-child(2), .img-fb img:nth-child(3) {
-  padding: 0 0 25px 0;
-}
-
-.img-insta img:nth-child(1), .img-insta img:nth-child(2), .img-insta img:nth-child(3) {
-  padding: 0 0 29px 0;
-}
 
 /*GRANDE COLLECTE*/
 
