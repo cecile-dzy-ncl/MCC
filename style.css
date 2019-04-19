@@ -1321,6 +1321,11 @@ section.section-projet-details .projet-head .user {
   padding-bottom: 20px;
 }
 
+.banner-text {
+    text-shadow: none;
+    padding: 20px;
+}
+
 .banner-association-chiffres {
     height: auto;
 }
