@@ -1286,6 +1286,14 @@ section.section-projet-details .projet-head .user {
   line-height: 42px;
 }
 
+.wrapper-description-content {
+    width: 100%;
+}
+
+.wrapper-description-content p {
+  margin: 15px 0;
+}
+
 .coup-coeur {
   width: 100%;
 }
@@ -1305,6 +1313,7 @@ section.section-projet-details .projet-head .user {
 
 .banner-association-chiffres img {
   height: auto;
+  padding-bottom: 20px;
 }
 
 .banner-association-chiffres {
@@ -1318,6 +1327,11 @@ section.section-projet-details .projet-head .user {
 
 .banner {
     min-height: 130px;
+}
+
+.conseils-outils {
+  width: 100%;
+  padding: 20px;
 }
 
 }
