@@ -373,7 +373,7 @@ a:hover {
   margin: 60px;
 }
 
-.project-description a:hover, .camp-description a:hover {
+.project-description a:hover, .camp-description a:hover, .conseils a:hover {
   background-color: #990004;
   color: #fff !important;
 }
@@ -507,7 +507,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .stat h2 {
-  font-size: 50px;
+  font-size: 47px;
   line-height: 40px;
 }
 
@@ -850,6 +850,16 @@ hr {
   width: 1140px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 30px;
+}
+
+.conseils {
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+.bottom-bar a {
+  text-transform: uppercase;
 }
 
 .conseil {
