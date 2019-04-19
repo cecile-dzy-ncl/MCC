@@ -1339,7 +1339,8 @@ section.section-projet-details .projet-head .user {
 }
 
 .conseil-description p {
-    padding: 10px 0;
+  padding: 10px 20px;
+  margin: 0;
 }
 
 .conseil {
@@ -1353,7 +1354,8 @@ section.section-projet-details .projet-head .user {
      width: 100%;
      overflow: visible;
 }
-.conseil-text {
+
+.conseil:nth-child(2) .conseil-text, .conseil:first-child .conseil-text,  {
     height: auto;
 }
 
