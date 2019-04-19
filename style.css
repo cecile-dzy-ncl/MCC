@@ -1360,6 +1360,25 @@ section.section-projet-details .projet-head .user {
     padding: 10px 0;
 }
 
+.banner-homepage {
+    background-image: url(https://cecile-dzy-ncl.github.io/MCC/images/IMAGE_HOME.png);
+    background-size: contain;
+    height: 460px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    width: 900px;
+    margin: 0 auto 45px auto;
+}
+.banner-text h1, .banner-text h4, .banner-text p {
+  color: #E40520;
+}
+
 }
 
 
