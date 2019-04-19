@@ -1316,6 +1316,10 @@ section.section-projet-details .projet-head .user {
   line-height: 65px;
 }
 
+.banner {
+    min-height: 130px;
+}
+
 }
 
 
