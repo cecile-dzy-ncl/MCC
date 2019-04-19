@@ -1107,8 +1107,8 @@ h4 {
 }
 
 p {
-    font-size: 13px;
-    line-height: 13px;
+    font-size: 17px;
+    line-height: 22px;
 }
 
 .stats {
@@ -1164,7 +1164,6 @@ p {
 }
 
 .project-description p {
-  font-size: 17px;
   line-height: 20px;
   margin: 0px 38px
 }
@@ -1261,11 +1260,6 @@ section.section-projet-details .project-detail-data .project_boutons_give {
     padding-top: 13px;
 }
 
-.project_content p {
-    font-size: 17px;
-    line-height: 22px;
-}
-
 .footerc-content {
     flex-direction: column;
 }
@@ -1277,6 +1271,37 @@ section.section-projet-details .project-detail-data .project_boutons_give {
 .footerc-left, .footerc-right {
     height: auto;
 }
+
+section.section-projet-details .projet-head .user {
+    float: none !important;
+}
+
+.wrapper-description-content {
+  padding: 20px;
+}
+
+.wrapper-description-content h3 {
+  font-size: 37px;
+  line-height: 42px;
+}
+
+.coup-coeur {
+  width: 100%;
+}
+
+.campagnes {
+  padding: 20px;
+}
+
+.campagne {
+  height: auto;
+  flex-direction: column;
+}
+
+.camp-photo, .camp-description {
+  width: 100%;
+}
+
 
 }
 
