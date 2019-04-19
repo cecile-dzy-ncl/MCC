@@ -1326,7 +1326,7 @@ section.section-projet-details .projet-head .user {
 }
 
 .banner {
-    min-height: 130px;
+    height: 130px;
 }
 
 .conseils-outils {
@@ -1336,6 +1336,28 @@ section.section-projet-details .projet-head .user {
 
 .conseil-description {
     width: 100%;
+}
+
+.conseil {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.conseil-text {
+    height: auto;
+}
+
+.outils-pratiques {
+    flex-direction: column;
+}
+
+.outils-fb-insta, .outils-fb-insta img {
+    width: 100%;
+}
+
+.outils-fb-insta p, .outils-fb-insta img {
+    padding: 10px 0;
 }
 
 }
