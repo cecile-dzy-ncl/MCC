@@ -260,6 +260,13 @@ section.section-projet-details h1 {
   background: #f0f0f0;
 }
 
+.footer-collecte {
+  height: 600px;
+}
+
+#logo-footer {
+  padding-bottom: 40px;
+}
 
 .footerc-content {
   display: flex;
