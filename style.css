@@ -1338,12 +1338,21 @@ section.section-projet-details .projet-head .user {
     width: 100%;
 }
 
+.conseil-description p {
+    padding: 10px 0;
+}
+
 .conseil {
     flex-direction: column;
-    height: auto;
+    height: auto !important;
     width: 100%;
 }
 
+.conseil-photo {
+    height: 100%;
+     width: 100%;
+     overflow: visible;
+}
 .conseil-text {
     height: auto;
 }
