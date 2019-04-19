@@ -935,18 +935,6 @@ hr {
   height: 392px;
 }
 
-.outils-fb, .outils-insta {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items:center;
-  height: 780px;
-}
-
-.outils-fb {
-  height: 450px;
-}
-
 .img-insta, .img-fb {
   display: flex;
   flex-wrap: wrap;
