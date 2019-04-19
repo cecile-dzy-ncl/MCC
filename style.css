@@ -261,11 +261,11 @@ section.section-projet-details h1 {
 }
 
 #footer-collecte {
-  height: 650px;
+  height: 750px;
 }
 
 .footerc-rf {
-  border: 3px dashed black;
+  border: 2px dashed black;
   padding: 20px;
 }
 
@@ -286,8 +286,9 @@ section.section-projet-details h1 {
 .footerc-left, .footerc-right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  height: 540px;
 }
 
 
