@@ -260,8 +260,17 @@ section.section-projet-details h1 {
   background: #f0f0f0;
 }
 
-.footer-collecte {
-  height: 600px;
+#footer-collecte {
+  height: 650px;
+}
+
+.footerc-rf {
+  border: 3px dashed black;
+  padding: 20px;
+}
+
+.footerc-rf p {
+  margin: 10px 0;
 }
 
 #logo-footer {
