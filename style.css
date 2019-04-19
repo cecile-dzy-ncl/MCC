@@ -1157,6 +1157,24 @@ p {
     width: 100%;
 }
 
+.help-btn {
+    padding: 6px 20px;
+    font-size: 10px;
+}
+
+hr {
+  width: 45%;
+}
+
+.help-shop img {
+  height: 28px;
+  margin: 23px;
+}
+
+.help-shop p {
+  text-align: left !important;
+}
+
 }
 
 
