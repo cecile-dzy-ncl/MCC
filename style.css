@@ -1361,11 +1361,15 @@ section.section-projet-details .projet-head .user {
     flex-direction: column;
 }
 
+.outils-fb-insta {
+    padding-bottom: 64px;
+}
+
 .outils-fb-insta, .outils-fb-insta img {
     width: 100%;
 }
 
-.outils-fb-insta p, .outils-fb-insta img {
+.outils-fb-insta p, .outils-fb-insta img, .outils-guide img {
     padding: 10px 0;
 }
 
