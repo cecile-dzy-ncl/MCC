@@ -1165,9 +1165,36 @@ p {
 }
 
 .project-description p {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 20px;
   margin: 0px 38px
+}
+
+.project-pic, .project-pic img {
+  height: 100%;
+}
+
+.projects-row-1 img {
+    height: auto;
+}
+
+#project-logo-e {
+    height: 70px;
+    left: 39%;
+}
+
+#project-logo-m {
+    height: 70px;
+    position: absolute;
+    left: 24%;
+}
+
+.projects-row-1 .project-description p {
+    margin-top: 55px;
+}
+
+.project-btn {
+    margin: 20px;
 }
 
 .help-content {
