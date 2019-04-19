@@ -943,9 +943,9 @@ hr {
 }
 
 .outils-fb-insta {
-  background: blue;
-  height: 300px;
-  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .img-insta {
