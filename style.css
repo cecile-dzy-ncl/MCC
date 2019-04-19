@@ -502,6 +502,11 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   color: #000;
 }
 
+.stat h2 {
+  font-size: 50px;
+  line-height: 40px;
+}
+
 .stat p {
   text-align: center !important;
 }
