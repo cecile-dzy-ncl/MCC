@@ -1303,6 +1303,18 @@ section.section-projet-details .projet-head .user {
   width: 100%;
 }
 
+.banner-association-chiffres img {
+  height: auto;
+}
+
+.banner-association-chiffres {
+    height: auto;
+}
+
+.banner-association-chiffres h3 {
+  font-size: 17px;
+  line-height: 65px;
+}
 
 }
 
