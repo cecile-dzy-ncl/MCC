@@ -43,7 +43,7 @@ a.logo img {
   padding: 0;
 }
 
-.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, section.project_event_description, section.event-head, section.section-my-event .row, .stats-event {
+.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, section.project_event_description, section.event-head, section.section-my-event .row, .stats-event, #footer-collecte {
   max-width: 71.25em;
   margin: 0 auto;
 }
@@ -259,6 +259,14 @@ section.section-projet-details h1 {
 .event-details {
   background: #f0f0f0;
 }
+
+
+.footerc-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*HOMEPAGE*/
 h1 {
