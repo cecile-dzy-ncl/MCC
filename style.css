@@ -1324,6 +1324,11 @@ section.section-projet-details .projet-head .user {
 .banner-text {
     text-shadow: none;
     padding: 20px;
+    margin: 0 auto 45px auto;
+}
+
+.banner-text h1, .banner-text h4, .banner-text p {
+  color: #E40520;
 }
 
 .banner-association-chiffres {
@@ -1396,13 +1401,6 @@ section.section-projet-details .projet-head .user {
     background-repeat: no-repeat;
 }
 
-.banner-text {
-    width: 900px;
-    margin: 0 auto 45px auto;
-}
-.banner-text h1, .banner-text h4, .banner-text p {
-  color: #E40520;
-}
 
 }
 
