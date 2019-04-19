@@ -1135,7 +1135,7 @@ p {
 }
 
 .projects-text h3 {
-  margin-bottom: 0;
+  margin-bottom: 10px !important;
   padding: 15px;
   font-size: 19px;
   line-height: 25px;
