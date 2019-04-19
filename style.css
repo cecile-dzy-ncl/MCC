@@ -1164,11 +1164,12 @@ p {
 
 hr {
   width: 45%;
+  margin: 0.75rem;
 }
 
 .help-shop img {
   height: 28px;
-  margin: 23px;
+  margin: 0 23px;
 }
 
 .help-shop p {
