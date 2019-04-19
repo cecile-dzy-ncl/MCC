@@ -312,7 +312,6 @@ section.section-projet-details h1 {
 h1 {
   margin: 0;
   height: 217px;
-  width: 947px;
   color: #FFFFFF;
   font-family: "proximanova-regular";
   font-size: 96px;
@@ -1147,6 +1146,11 @@ p {
     flex-direction: column;
     justify-content: space-between;
     margin: 0 0 20px 0;
+    width: 100%;
+}
+
+.help-content {
+    width: 100%;
 }
 
 }
