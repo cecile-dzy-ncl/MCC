@@ -1311,6 +1311,11 @@ section.section-projet-details .projet-head .user {
   width: 100%;
 }
 
+.camp-description p {
+    margin: 0;
+    padding: 20px;
+}
+
 .banner-association-chiffres img {
   height: auto;
   padding-bottom: 20px;
