@@ -288,9 +288,24 @@ section.section-projet-details h1 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 540px;
+  height: 580px;
 }
 
+.footerc-mcc {
+  margin: 0 40px;
+}
+
+.footerc-left img {
+  padding: 20px;
+}
+
+.footerc-mcc p {
+  text-align: left !important;
+}
+
+.footerc-mcc p, .footerc-rf {
+  margin: 15px 0;
+}
 
 /*HOMEPAGE*/
 h1 {
