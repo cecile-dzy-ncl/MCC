@@ -942,6 +942,12 @@ hr {
   align-items: center;
 }
 
+.outils-fb-insta {
+  background: blue;
+  height: 300px;
+  width: 500px;
+}
+
 .img-insta {
   width: 80%;
 }
