@@ -1276,7 +1276,8 @@ section.section-projet-details .projet-head .user {
     float: none !important;
 }
 
-.wrapper-description-content {
+.wrapper-description {
+  height: auto;
   padding: 20px;
 }
 
