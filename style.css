@@ -1040,7 +1040,6 @@ hr {
   height: 80px;
   display: flex;
   width: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 40px auto;
@@ -1211,6 +1210,10 @@ hr {
   margin: 0.75rem;
 }
 
+.wrapper-help {
+  padding: 20px;
+}
+
 .help-shop img {
   height: 28px;
   padding: 0 23px 0 0px;
@@ -1218,6 +1221,35 @@ hr {
 
 .help-shop p {
   text-align: left !important;
+}
+
+.stats-event {
+    height: auto;
+    flex-direction: column;
+}
+
+.stats-event-1 {
+    width: 100%;
+}
+
+.stats-event-1 p {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.line {
+    margin: 0px;
+    transform: rotate(90deg);
+}
+
+.stats-event-2 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.stats-event-montants {
+    flex-direction: column;
 }
 
 }
