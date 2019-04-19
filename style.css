@@ -945,7 +945,7 @@ hr {
 .outils-fb-insta {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  width: 50%;
 }
 
 .img-insta {
