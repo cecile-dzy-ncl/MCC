@@ -490,7 +490,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   color: #000;
 }
 
-.block-share .social-network:nth-child(3) {
+.block-share:nth-child(4) {
   display: none;
 }
 
