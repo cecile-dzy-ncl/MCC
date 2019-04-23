@@ -787,6 +787,15 @@ hr {
   width: 100%;
   margin-bottom: 20px;
 }
+
+#compostelle, .coup-coeur {
+  padding-bottom: 40px;
+}
+
+#all-projects {
+  padding: 15px 30px;
+}
+
 .camp-photo {
   height: 100%;
   width: 50%;
