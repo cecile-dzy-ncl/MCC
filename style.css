@@ -204,11 +204,15 @@ section.section-my-event .projects-list .panel h3 a, section.section-my-event .p
   min-height: 50px !important;
   background-color: #E40520;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 22px !important;
   font-weight: 500;
   letter-spacing: 1.47px;
   line-height: 22px;
-  padding-top: 15px;
+  padding-top: 15px !important;
+}
+
+section.section-projet-details .project-detail-data .contributeurs span {
+  font-family: "proximanova-regular" !important;
 }
 
 .fa-gift {
@@ -469,16 +473,12 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   height: 35px;
 }
 
-.contributeurs span {
-  font-family: "proximanova-regular";
-}
-
 .habillage .infos-money, .jours-restants {
   text-align: left !important;
 }
 
 .infos-money .current-amount, .infos-money .pledge-amount, .infos-money .objectif-amount, .infos-money .chart-wrap .percent {
-  font-family: "proximanova-regular";
+  font-family: "proximanova-regular" !important;
 }
 .stats {
   width: 1140px;
@@ -1083,7 +1083,7 @@ hr {
 }
 
 
-p#showdays, p#show_desired_amount, p.current-amount {
+p#showdays, p#show_desired_amount, p.current-amount, p.pledge-amount {
   text-align: left !important;
 }
 
@@ -1108,7 +1108,7 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 
 @media (max-width: 770px) {
 
-p#showdays, p#show_desired_amount, p.current-amount {
+p#showdays, p#show_desired_amount, p.current-amount, p.pledge-amount {
   text-align: center !important;
 }
 
