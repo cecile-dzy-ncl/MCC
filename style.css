@@ -1088,7 +1088,7 @@ hr {
 }
 
 
-.project-detail-data .p2p-detail-data p {
+p#showdays, p#show_desired_amount, p.current-amount {
   text-align: left !important;
 }
 
@@ -1106,7 +1106,7 @@ hr {
 }
 
 #myTabContent {
-  height: 50vh;
+  min-height: 50vh;
 }
 
 /*////////// RESPONSIVE //////////*/
