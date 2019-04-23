@@ -490,7 +490,7 @@ section.section-projet-details .project-detail-data .jours-restants {
   color: #000;
 }
 
-.social_network :nth-of-type(3) {
+.social_network:nth-of-type(3) {
   display: none;
 }
 
