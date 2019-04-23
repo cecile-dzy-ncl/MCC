@@ -473,7 +473,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   height: 35px;
 }
 
-.habillage .infos-money, .jours-restants {
+section.section-projet-details .project-detail-data .jours-restants {
   text-align: left !important;
 }
 
