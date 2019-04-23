@@ -208,6 +208,7 @@ section.section-my-event .projects-list .panel h3 a, section.section-my-event .p
   font-weight: 500;
   letter-spacing: 1.47px;
   line-height: 22px;
+  padding-top: 15px;
 }
 
 .fa-gift {
@@ -451,15 +452,12 @@ a:hover {
   color: #fff
 }
 
-section.section-projet-details .project-detail-data .project_boutons_give {
-  font-size: 22px;
-  font-weight: 500;
-  padding-top: 10px;
-}
+
 
 #show_team {
   font-size: 15px;
   line-height: 22px;
+  padding-top: 7px;
 }
 
 .habillage .percent canvas {
@@ -500,9 +498,6 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   background-color: #E40520;
 }
 
-.block-share-container {
-  display: none;
-}
 .stat {
   padding: 0 30px;
 }
@@ -1092,7 +1087,7 @@ p#showdays, p#show_desired_amount, p.current-amount {
   text-align: left !important;
 }
 
-.percent {
+section.section-projet-details .infos-money .chart-wrap .percent {
   color: #000;
 }
 
@@ -1112,6 +1107,10 @@ p#showdays, p#show_desired_amount, p.current-amount {
 /*////////// RESPONSIVE //////////*/
 
 @media (max-width: 770px) {
+
+p#showdays, p#show_desired_amount, p.current-amount {
+  text-align: center !important;
+}
 
 .banner-homepage {
   /* height: 631px; */
