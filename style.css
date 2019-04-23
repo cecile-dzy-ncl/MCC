@@ -425,7 +425,7 @@ a:hover {
   margin: 60px;
 }
 
-.project-description a:hover, .camp-description a:hover, .conseils a:hover {
+.project-description a:hover, .camp-description a:hover, .conseils a:hover, .coup-coeur a:hover {
   background-color: #990004;
   color: #fff !important;
 }
