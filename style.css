@@ -1087,6 +1087,28 @@ hr {
   font-size: 32px;
 }
 
+
+.project-detail-data .p2p-detail-data p {
+  text-align: left !important;
+}
+
+.percent {
+  color: #000;
+}
+
+#overview h1, #overview p {
+  text-align: left !important;
+  color: #000;
+}
+
+.people p {
+  line-height: 5px;
+}
+
+#myTabContent {
+  height: 50vh;
+}
+
 /*////////// RESPONSIVE //////////*/
 
 @media (max-width: 770px) {
@@ -1400,7 +1422,6 @@ section.section-projet-details .projet-head .user {
     color: #fff;
     background-repeat: no-repeat;
 }
-
 
 }
 
