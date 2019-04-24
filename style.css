@@ -1418,35 +1418,40 @@ section.section-projet-details .projet-head .user {
 }
 
 .conseil {
-    flex-direction: column;
-    height: auto !important;
-    width: 100%;
+  flex-direction: column;
+  height: auto !important;
+  width: 100%;
 }
 
 .conseil-photo {
-    height: 100%;
-     width: 100%;
-     overflow: visible;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
 }
 
 .conseil:nth-child(2) .conseil-text, .conseil:first-child .conseil-text,  {
-    height: auto;
+  height: auto;
 }
 
+.conseil-text {
+  height: auto;
+}
+
+
 .outils-pratiques {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .outils-fb-insta {
-    padding-bottom: 64px;
+  padding-bottom: 64px;
 }
 
 .outils-fb-insta, .outils-fb-insta img {
-    width: 100%;
+  width: 100%;
 }
 
 .outils-fb-insta p, .outils-fb-insta img, .outils-guide img {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .banner-homepage {
