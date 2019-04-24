@@ -85,8 +85,11 @@ section.event-head .intro-my-event p {
 section.event-head .row:nth-child(2) {
   background: red;
 }
+.button, .tabs dd > a, .tabs .tab-title > a {
+  font-family: "proximanova-regular";
+}
 
-.list_payment .people p {
+#list_payment .people p {
   line-height: 16px;
   text-align: left !important;
 }
@@ -1109,8 +1112,12 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   color: #000;
 }
 
-.people p {
+#overview p {
   line-height: 5px;
+}
+
+.project_payment .button {
+  padding: 15px 30px;
 }
 
 #myTabContent {
