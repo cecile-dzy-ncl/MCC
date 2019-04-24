@@ -94,6 +94,7 @@ section.event-head .row:nth-child(2) {
   text-align: left !important;
 }
 
+
 section.section-my-event .projects-list .panel h3 a, section.section-my-event .projects-list .panel h3 a:hover, section.section-my-event .projects-list .panel h3 a:focus {
   font-size: large;
 }
@@ -1117,7 +1118,16 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 }
 
 .project_payment .button {
-  padding: 15px 30px;
+  padding: 10px 25px;
+  height: 42px;
+}
+
+#events-show .block-share-container .social-btns {
+    margin-left: 295px;
+}
+
+#events-show .block-share-container {
+    margin-top: 23px;
 }
 
 #myTabContent {
