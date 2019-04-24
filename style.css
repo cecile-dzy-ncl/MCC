@@ -86,11 +86,8 @@ section.event-head .row:nth-child(2) {
   background: red;
 }
 
-.people .name p {
+.list_payment .people p {
   line-height: 16px;
-}
-
-.people .name p, .people .date p, .people .money p {
   text-align: left !important;
 }
 
