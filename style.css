@@ -1437,9 +1437,13 @@ section.section-projet-details .projet-head .user {
   height: auto !important;
 }
 
+.outils {
+  padding-bottom: 50px;
+}
 
 .outils-pratiques {
   flex-direction: column;
+  height: auto;
 }
 
 .outils-fb-insta {
@@ -1452,6 +1456,7 @@ section.section-projet-details .projet-head .user {
 
 .outils-fb-insta p, .outils-fb-insta img, .outils-guide img {
   padding: 10px 0;
+  height: auto;
 }
 
 .banner-homepage {
@@ -1477,8 +1482,12 @@ section.section-projet-details .projet-head .user {
   margin: 0 0 25px 0;
 }
 
-
-
+.coup-coeur h3 {
+  margin: 45px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+}
 
 
 }
