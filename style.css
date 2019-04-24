@@ -1434,7 +1434,7 @@ section.section-projet-details .projet-head .user {
 }
 
 .conseil-text {
-  height: auto;
+  height: auto !important;
 }
 
 
