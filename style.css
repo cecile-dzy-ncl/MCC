@@ -86,6 +86,13 @@ section.event-head .row:nth-child(2) {
   background: red;
 }
 
+.people .name p {
+  line-height: 16px;
+}
+
+.people .name p, .people .date p, .people .money p {
+  text-align: left !important;
+}
 
 section.section-my-event .projects-list .panel h3 a, section.section-my-event .projects-list .panel h3 a:hover, section.section-my-event .projects-list .panel h3 a:focus {
   font-size: large;
