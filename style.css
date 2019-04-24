@@ -1138,6 +1138,14 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 
 @media (max-width: 770px) {
 
+a.logo img {
+  margin: 50px auto 9px auto;
+}
+
+#overview p {
+  line-height: 16px;
+}
+
 p#showdays, p#show_desired_amount, p.current-amount, p.pledge-amount {
   text-align: center !important;
 }
