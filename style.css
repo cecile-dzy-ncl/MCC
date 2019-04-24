@@ -1450,15 +1450,31 @@ section.section-projet-details .projet-head .user {
 }
 
 .banner-homepage {
-    background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/PICT2x.jpg);
-    background-size: contain;
-    height: 460px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    color: #fff;
-    background-repeat: no-repeat;
+  background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/PICT2x.jpg);
+  background-size: contain;
+  height: 530px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
 }
+
+#events-show .block-share-container .social-btns {
+  margin-left: 33px;
+}
+
+.block-share-container .social-btns .social_network {
+  margin: 0 10px;
+}
+
+.coup-coeur .camp-btn {
+  margin: 0 0 25px 0;
+}
+
+
+
+
 
 }
 
