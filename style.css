@@ -1134,7 +1134,13 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   min-height: 50vh;
 }
 
-/*////////// RESPONSIVE //////////*/
+/*GRANDE COLLECTE*/
+
+.event_60 .event-head {
+  display: none;
+}
+
+/*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
 
 @media (max-width: 770px) {
 
