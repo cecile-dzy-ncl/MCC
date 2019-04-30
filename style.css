@@ -1250,8 +1250,8 @@ section.section-my-event aside .donators .people p {
 }
 
 .banner-partenaires ul:nth-first-child li:nth-last-child img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 .banner-programme {
