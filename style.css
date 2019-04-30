@@ -1231,6 +1231,7 @@ section.section-my-event aside .donators .people p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 70%;
   margin: 0 auto;
 }
