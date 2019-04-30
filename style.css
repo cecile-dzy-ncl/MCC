@@ -1235,10 +1235,12 @@ section.section-my-event aside .donators .people p {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .banner-partenaires li {
-  width: 15%;
+  /*width: 15%;*/
   list-style: none;
 }
 
