@@ -1237,7 +1237,7 @@ section.section-my-event aside .donators .people p {
 }
 
 .banner-partenaires li {
-  height: 40%;
+  height: 50%;
   width: auto;
   margin: 5px;
   list-style: none;
@@ -1249,6 +1249,10 @@ section.section-my-event aside .donators .people p {
   width: auto;
 }
 
+.banner-partenaires ul:nth-first-child li:nth-last-child img {
+  height: 100%;
+  width: auto;
+}
 
 .banner-programme {
   background-image: url(https://relaisducoeur.mecenat-cardiaque.org/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/image24H.png);
