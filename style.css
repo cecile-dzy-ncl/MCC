@@ -1237,8 +1237,8 @@ section.section-my-event aside .donators .people p {
 }
 
 .banner-partenaires li {
-  height: 50%;
-  width: auto;
+  height: 55%;
+  width: 12%;
   margin: 5px;
   list-style: none;
   display:inline-block;
@@ -1254,15 +1254,15 @@ section.section-my-event aside .donators .people p {
   width: 100%;
 }
 
-.banner-partenaires ul:nth-child(1) {
+.banner-partenaires ul:nth-child(2) {
   width: 55%;
 }
 
-.banner-partenaires ul:nth-child(2) {
+.banner-partenaires ul:nth-child(3) {
   width: 80%;
 }
 
-.banner-partenaires ul:nth-child(2) li {
+.banner-partenaires ul:nth-child(3) li {
   height: 50%;
   width: auto;
 }
