@@ -1207,6 +1207,7 @@ section.section-my-event aside .donators .people p {
 .btn-share-gc {
   display: flex;
   justify-content: center;
+  margin: 25px;
 }
 
 .btn-share-gc img {
