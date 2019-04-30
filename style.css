@@ -1218,6 +1218,8 @@ section.section-my-event aside .donators .people p {
 .banner-partenaires {
   background-color: #F0F0F0;
   height: 386px;
+  margin-left: -50%;
+  margin-right: -50%;
 }
 
 .banner-programme {
@@ -1227,6 +1229,8 @@ section.section-my-event aside .donators .people p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: -50%;
+  margin-right: -50%;
 }
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
