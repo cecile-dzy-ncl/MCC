@@ -1180,10 +1180,11 @@ section.section-my-event aside .donators .people p {
   display: none;
 }
 
-.event_60 .intro-my-event .button {
+#btn-don {
   font-size: 24px !important;
   letter-spacing: 1.71px;
   line-height: 32px;
+  padding: 12px 58px;
 }
 
 #donators-title {

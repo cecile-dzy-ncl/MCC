@@ -11,12 +11,14 @@ $('.block-share-container').appendTo('.intro-my-event');
 // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
 $('.section-home-projects').prepend('<h3>LES COLLECTES EN COURS</h3>');
 
-// AJOUT TITRE "MERCI DONATEURS" SUR EVENT GRANDE COLLECTE
+// AJOUT TITRE "MERCI DONATEURS" - EVENT GRANDE COLLECTE
 $('.event_60 .section-my-event .row .medium-3, .event_55 .section-my-event .row .medium-3').prepend('<h3 id="donators-title">MERCI DU FOND DU COEUR<br>DE VOTRE SOUTIEN.</h3>');
 
+// AJOUT BOUTON DON SUR BLOC DONATEURS - EVENT GRANDE COLLECTE
+$('.event_60 .section-my-event .row .medium-3, .event_55 .section-my-event .row .medium-3').append('<a class="button" href="https://relaisducoeur.mecenat-cardiaque.org/projects/la-grande-collecte-2019-fr/payments/new" id="btn-don">JE DONNE</a>');
 
 
-// BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION
+// --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
 
 // ajout du bloc en début de page
 $('#events-show .habillage, #events-show .habillage, #events-show  .habillage').prepend('<div class="stats-event"><div class="stats-event-1"><img src="https://cecile-dzy-ncl.github.io/MCC/images/people.svg" alt=""><div class="stats-event-nb"><p>Déjà <span class="enfants" style="font-size: 32px">8</span> enfants sauvés</p><p>Objectif: <span class="objectif-enfants">24</span> enfants</p></div></div><div class="line"></div><div class="stats-event-2"><div class="stats-event-montants"><div class="stats-event-m-1"><span>97 560 €</span> collectés</div><div class="stats-event-m-2"></div></div><div class="progress"><span class="graph-barBack"><span class="graph-bar" data-value="10"></span></span></div></div></div></div>');
