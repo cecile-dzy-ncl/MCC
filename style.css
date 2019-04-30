@@ -1254,15 +1254,15 @@ section.section-my-event aside .donators .people p {
   width: 100%;
 }
 
-.banner-partenaires ul:nth-first-child {
+.banner-partenaires ul:nth-child(1) {
   width: 55%;
 }
 
-.banner-partenaires ul:nth-last-child {
+.banner-partenaires ul:nth-child(2) {
   width: 80%;
 }
 
-.banner-partenaires ul:nth-last-child li {
+.banner-partenaires ul:nth-child(2) li {
   height: 50%;
   width: auto;
 }
