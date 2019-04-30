@@ -1136,9 +1136,9 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 
 /*GRANDE COLLECTE*/
 
-.event_60 .event-head {
-/*  display: none;
-*/}
+.event_60 .banner-section .row {
+  max-width: 100% !important;
+}
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
 
