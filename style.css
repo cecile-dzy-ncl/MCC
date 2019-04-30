@@ -1177,7 +1177,7 @@ section.section-my-event aside .donators .people p {
 }
 
 .event_60 .intro-my-event .button {
-  font-size: 24px;
+  font-size: 24px !important;
   letter-spacing: 1.71px;
   line-height: 32px;
 }
