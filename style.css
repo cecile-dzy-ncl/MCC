@@ -1278,8 +1278,13 @@ section.section-my-event aside .donators .people p {
   width: auto;
 }
 
-.banner-partenaires ul:nth-child(3) li:nth-child(2), .banner-partenaires ul:nth-child(3) li:nth-child(3), .banner-partenaires ul:nth-child(3) li:nth-child(5) {
+.banner-partenaires ul:nth-child(3) li:nth-child(2), .banner-partenaires ul:nth-child(3) li:nth-child(3) {
   height: 40%;
+  width: auto;
+}
+
+.banner-partenaires ul:nth-child(3) li:nth-child(5) {
+  height: 30%;
   width: auto;
 }
 
