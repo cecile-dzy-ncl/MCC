@@ -1139,6 +1139,12 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   font-weight: 600;
 }
 
+section.section-my-event aside .donators .people p {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 /*GRANDE COLLECTE*/
 
 .event_60 #banner_section .row {
