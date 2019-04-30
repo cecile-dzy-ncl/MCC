@@ -1151,6 +1151,16 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   margin: 0 auto;
 }
 
+.event_60 .section-my-event .row .medium-3 .donators, .event_55 .section-my-event .row .medium-3 .donators {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event_60 .section-my-event .row .medium-3 .donators li, .event_55 .section-my-event .row .medium-3 .donators li {
+  width: 25%;
+}
+
+
 .event_60 .block-share-container {
   display: none;
 }
