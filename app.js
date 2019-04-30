@@ -11,6 +11,11 @@ $('.block-share-container').appendTo('.intro-my-event');
 // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
 $('.section-home-projects').prepend('<h3>LES COLLECTES EN COURS</h3>');
 
+// AJOUT TITRE "MERCI DONATEURS" SUR EVENT GRANDE COLLECTE
+$('.event_60 .section-my-event .row .medium-3, .event_55 .section-my-event .row .medium-3').prepend('<h1>MERCI DU FOND DU COEUR DE VOTRE SOUTIEN</h1>');
+
+
+
 // BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION
 
 // ajout du bloc en début de page

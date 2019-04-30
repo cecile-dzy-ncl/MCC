@@ -1150,6 +1150,7 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 }
 
 .event_60 .section-my-event .row .medium-3, .event_55 .section-my-event .row .medium-3 {
+  width: 100%;
   max-width: 100%;
   float: none;
   margin: 0 auto;
@@ -1164,7 +1165,6 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   width: 25%;
 }
 
-
 .event_60 .block-share-container {
   display: none;
 }
@@ -1173,6 +1173,10 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   font-size: 24px;
   letter-spacing: 1.71px;
   line-height: 32px;
+}
+
+#donators-title {
+  margin: 20px 0;
 }
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
