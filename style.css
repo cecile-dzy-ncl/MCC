@@ -1212,8 +1212,8 @@ section.section-my-event aside .donators .people p {
 }
 
 .banner-partenaires {
-  background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/imageheaderconseilcollecte2x.jpg);
-  background-size: cover;
+  background-color: #F0F0F0;
+  height: 386px;
 }
 
 .banner-programme {
