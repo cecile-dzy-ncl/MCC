@@ -1237,6 +1237,7 @@ section.section-my-event aside .donators .people p {
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
+  height: 40%;
 }
 
 .banner-partenaires li {
@@ -1263,7 +1264,7 @@ section.section-my-event aside .donators .people p {
 
 .banner-partenaires ul:nth-child(3) {
   width: 60%;
-  margin: auto 0;
+  margin: auto 0 30px 0;
 }
 
 .banner-partenaires ul:nth-child(3) li:nth-child(1) {
