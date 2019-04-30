@@ -1152,27 +1152,27 @@ section.section-my-event aside .donators .people p {
   margin: 0 !important;
 }
 
-.event_60 .section-my-event .row .medium-9, .event_55 .section-my-event .row .medium-9 {
+.event_60 .section-my-event .row .medium-9 {
   display: none;
 }
 
-.event_60 .section-my-event .row .medium-3, .event_55 .section-my-event .row .medium-3 {
+.event_60 .section-my-event .row .medium-3 {
   width: 100%;
   max-width: 100%;
   float: none;
   margin: 0 auto;
 }
 
-.event_60 .section-my-event .row .medium-3 .donators, .event_55 .section-my-event .row .medium-3 .donators {
+.event_60 .section-my-event .row .medium-3 .donators {
   display: flex;
   flex-wrap: wrap;
 }
 
-.event_60 .section-my-event .row .medium-3 .donators li, .event_55 .section-my-event .row .medium-3 .donators li {
+.event_60 .section-my-event .row .medium-3 .donators li {
   width: 25%;
 }
 
-.event_60 .section-my-event .row .medium-3 .donators li:nth-child(9), .event_60 .section-my-event .row .medium-3 .donators li:nth-child(10), .event_55 .section-my-event .row .medium-3 .donators li:nth-child(9), .event_55 .section-my-event .row .medium-3 .donators li:nth-child(10) {
+.event_60 .section-my-event .row .medium-3 .donators li:nth-child(9), .event_60 .section-my-event .row .medium-3 .donators li:nth-child(10) {
   display: none;
 }
 
@@ -1204,10 +1204,6 @@ section.section-my-event aside .donators .people p {
 }
 
 .event_60 #widget-event-end, .event_60 #widget-count-gift, .event_60 .section-my-event .row .medium-3 .main-text-color {
-  display: none;
-}
-
-.event_55 #widget-event-end, .event_55 #widget-count-gift, .event_55 .section-my-event .row .medium-3 .main-text-color {
   display: none;
 }
 
