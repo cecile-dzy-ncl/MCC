@@ -1155,6 +1155,11 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   display: none;
 }
 
+.event_60 .intro-my-event .button {
+  font-size: 24px;
+  letter-spacing: 1.71px;
+  line-height: 32px;
+}
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
 
