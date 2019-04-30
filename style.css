@@ -1237,9 +1237,15 @@ section.section-my-event aside .donators .people p {
 }
 
 .banner-partenaires li {
-  /*width: 15%;*/
+  width: 15%;
+  margin: 5px;
   list-style: none;
   display:inline-block;
+}
+
+.banner-partenaires li {
+  height: 100%;
+  width: auto;
 }
 
 
