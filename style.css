@@ -1221,10 +1221,21 @@ section.section-my-event aside .donators .people p {
   margin-left: -50%;
   margin-right: -50%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.banner-partenaires ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-partenaires li {
+  width: 15%;
+}
+
 
 .banner-programme {
   background-image: url(https://relaisducoeur.mecenat-cardiaque.org/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/image24H.png);
