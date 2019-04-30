@@ -1151,6 +1151,10 @@ section.section-my-event aside .donators .people p {
   overflow: hidden;
 }
 
+.event_60 .stats-event-nb p:nth-child(2) {
+  color: #E40520;
+}
+
 .event_60 #banner_section .row {
   max-width: 100% !important;
   margin: 0 !important;
