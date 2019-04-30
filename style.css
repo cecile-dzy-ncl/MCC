@@ -1234,6 +1234,7 @@ section.section-my-event aside .donators .people p {
 
 .banner-partenaires li {
   width: 15%;
+  list-style: none;
 }
 
 
