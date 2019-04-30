@@ -1183,6 +1183,10 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   line-height: 49px;
 }
 
+.event_60 #widget-event-end, .event_60 #widget-count-gift, .event_60 .section-my-event .row .medium-3 .main-text-color {
+  display: none;
+}
+
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
 
 @media (max-width: 770px) {
