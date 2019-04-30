@@ -1134,6 +1134,10 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   min-height: 50vh;
 }
 
+.people .secondary-color {
+  color: black;
+}
+
 /*GRANDE COLLECTE*/
 
 .event_60 #banner_section .row {
