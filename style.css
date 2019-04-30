@@ -1194,6 +1194,10 @@ section.section-my-event aside .donators .people p {
   display: none;
 }
 
+.event_55 #widget-event-end, .event_55 #widget-count-gift, .event_55 .section-my-event .row .medium-3 .main-text-color {
+  display: none;
+}
+
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
 
 @media (max-width: 770px) {
