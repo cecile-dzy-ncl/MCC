@@ -1253,6 +1253,11 @@ section.section-my-event aside .donators .people p {
   width: 55%;
 }
 
+.banner-partenaires ul:nth-child(2) li:nth-child(5) img {
+  height: 10%;
+  width: auto;
+}
+
 .banner-partenaires ul:nth-child(3) {
   width: 60%;
 }
