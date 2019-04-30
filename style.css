@@ -1141,11 +1141,11 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   margin: 0 !important;
 }
 
-.event_60 .section-my-event .row .medium-9 {
+.event_60 .section-my-event .row .medium-9, .event_55 .section-my-event .row .medium-9 {
   display: none;
 }
 
-.event_60 .section-my-event .row .medium-3 {
+.event_60 .section-my-event .row .medium-3, .event_55 .section-my-event .row .medium-3 {
   max-width: 100%;
   float: none;
   margin: 0 auto;
