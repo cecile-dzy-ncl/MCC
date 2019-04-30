@@ -1219,6 +1219,9 @@ section.section-my-event aside .donators .people p {
 .banner-programme {
   background-image: url(https://relaisducoeur.mecenat-cardiaque.org/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/image24H.png);
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
