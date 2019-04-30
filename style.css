@@ -1232,11 +1232,12 @@ section.section-my-event aside .donators .people p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 70%;
   margin: 0 auto;
+  background-color: blue;
 }
 
 .banner-partenaires li {
+  background-color: yellow;
   height: 55%;
   width: 12%;
   margin: auto;
