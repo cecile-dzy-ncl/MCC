@@ -1187,6 +1187,14 @@ section.section-my-event aside .donators .people p {
   padding: 12px 58px;
 }
 
+#btn-programme {
+  font-size: 24px !important;
+  letter-spacing: 1.71px;
+  line-height: 32px;
+  padding: 12px 58px;
+  margin: 0;
+}
+
 #donators-title {
   margin: 20px 0;
   color: #000000;
