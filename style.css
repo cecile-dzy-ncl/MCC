@@ -1147,6 +1147,10 @@ section.section-my-event aside .donators .people p {
 
 /*GRANDE COLLECTE*/
 
+.event_60 .habillage {
+  overflow: hidden;
+}
+
 .event_60 #banner_section .row {
   max-width: 100% !important;
   margin: 0 !important;
