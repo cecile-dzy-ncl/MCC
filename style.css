@@ -1220,6 +1220,10 @@ section.section-my-event aside .donators .people p {
   height: 386px;
   margin-left: -50%;
   margin-right: -50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-programme {
