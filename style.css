@@ -1229,7 +1229,7 @@ section.section-my-event aside .donators .people p {
 
 .banner-partenaires ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   /*flex-wrap: wrap;*/
   width: 70%;
@@ -1249,17 +1249,12 @@ section.section-my-event aside .donators .people p {
   width: auto;
 }
 
-.banner-partenaires ul:nth-first-child li:nth-last-child img {
-  height: auto;
-  width: 100%;
-}
-
 .banner-partenaires ul:nth-child(2) {
   width: 55%;
 }
 
 .banner-partenaires ul:nth-child(3) {
-  width: 80%;
+  width: 60%;
 }
 
 .banner-partenaires ul:nth-child(3) li {
