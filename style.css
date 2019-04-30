@@ -1211,6 +1211,10 @@ section.section-my-event aside .donators .people p {
   display: none;
 }
 
+.event_60 section.event-head .intro-my-event {
+  margin-bottom: 0;
+}
+
 .banner-partenaires {
   background-color: #F0F0F0;
   height: 386px;
