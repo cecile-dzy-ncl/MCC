@@ -1232,7 +1232,7 @@ section.section-my-event aside .donators .people p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -1243,7 +1243,7 @@ section.section-my-event aside .donators .people p {
   display:inline-block;
 }
 
-.banner-partenaires li {
+.banner-partenaires li img {
   height: 100%;
   width: auto;
 }
