@@ -1177,6 +1177,10 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 
 #donators-title {
   margin: 20px 0;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 49px;
 }
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
