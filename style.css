@@ -1151,6 +1151,10 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   margin: 0 auto;
 }
 
+.event_60 .block-share-container {
+  display: none;
+}
+
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
 
