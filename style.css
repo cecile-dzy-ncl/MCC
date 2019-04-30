@@ -1172,6 +1172,10 @@ section.section-my-event aside .donators .people p {
   width: 25%;
 }
 
+.event_60 .section-my-event .row .medium-3 .donators li:nth-last-child, .event_55 .section-my-event .row .medium-3 .donators li:nth-last-child {
+  display: none;
+}
+
 .event_60 .block-share-container {
   display: none;
 }
