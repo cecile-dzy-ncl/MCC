@@ -502,6 +502,11 @@ section.section-projet-details .project-detail-data .jours-restants {
   display: none;
 }
 
+.section-projet-details .social_network {
+  width: 25%;
+}
+
+
 .block-share-container .social-btns .social_network a .social_network_share {
   background-color: #E40520;
 }
