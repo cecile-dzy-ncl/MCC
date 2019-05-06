@@ -49,8 +49,9 @@ $(function(){
     } else {
       $('.enfants').html(0);
     };
+  }
 
-  } if ($('body').is('#events-show')) {
+  if ($('body').is('#events-show')) {
 
     var collecte = $('.current-amount').html();
     $('.stats-event-m-1 span').html(collecte);
