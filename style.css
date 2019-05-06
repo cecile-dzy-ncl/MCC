@@ -1107,6 +1107,10 @@ hr {
   font-size: 32px;
 }
 
+.stats-event-m-2 span {
+  font-size: 20px;
+}
+
 
 p#showdays, p#show_desired_amount, p.current-amount, p.pledge-amount {
   text-align: left !important;
@@ -1194,6 +1198,13 @@ section.section-my-event aside .donators .people p {
 
 .event_60 .block-share-container {
   display: none;
+}
+
+.event_60 .stats-event-m-1 span {
+  font-size: 20px;
+}
+.event_60 .stats-event-m-2 span {
+  font-size: 32px;
 }
 
 #btn-don {
