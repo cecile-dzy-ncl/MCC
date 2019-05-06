@@ -94,6 +94,9 @@ section.event-head .row:nth-child(2) {
   text-align: left !important;
 }
 
+.project_payment #list_payment .people p.money {
+    color: black;
+}
 
 section.section-my-event .projects-list .panel h3 a, section.section-my-event .projects-list .panel h3 a:hover, section.section-my-event .projects-list .panel h3 a:focus {
   font-size: large;
