@@ -28,6 +28,15 @@ var pourcentage = $('.chart').attr('data-percent');
 $('.stats-event .graph-bar').attr('data-value', pourcentage);
 
 $(function(){
+
+  if($('body').is('.event_60')){
+
+    var collecte = $('.current-amount').html();
+    $('.stats-event-m-1 span').html(collecte);
+
+    var objectif = $('.objectif-amount').html().split('Objectif')[1].split('  ')[0];
+    $('.stats-event-m-2').html('Objectif: <span>' + objectif + '</span>');
+
   if($('body').is('#events-show')){
 
     var collecte = $('.current-amount').html();
