@@ -50,7 +50,9 @@ $(function(){
       $('.enfants').html(0);
     };
   }
+});
 
+$(function(){
   if ($('body').is('#events-show')) {
 
     var collecte = $('.current-amount').html();
