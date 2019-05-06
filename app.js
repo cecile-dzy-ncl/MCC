@@ -48,7 +48,8 @@ $(function(){
       $('.enfants').html(Math.floor(Number.parseInt($('.current-amount').html().split('     ')[1].split(' €')[0], 10)/12));
     } else {
       $('.enfants').html(0);
-    }
+    };
+
   } else ($('body').is('#events-show')){
 
     var collecte = $('.current-amount').html();
@@ -65,6 +66,6 @@ $(function(){
       $('.enfants').html(Math.floor(Number.parseInt($('.current-amount').html().split('     ')[1].split(' €')[0], 10)/12));
     } else {
       $('.enfants').html(0);
-    }
+    };
   }
 });
