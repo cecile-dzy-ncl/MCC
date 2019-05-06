@@ -36,7 +36,7 @@ $(function(){
 
     var objectif = $('.objectif-amount').html().split('Objectif')[1].split('  ')[0];
     console.log(objectif);
-    $('.stats-event-m-2').html('Objectif: <span>' + objectif + '</span>');
+    $('.stats-event-m-2').html('Objectif: <span>' + $('.objectif-amount').html().split('Objectif')[1].split('  ')[0] + '</span>');
 
     // calcul de l'obj
     $('.objectif-enfants').html(Math.floor(Number.parseInt($('.objectif-amount').html().split('Objectif ')[1].split(' €')[0], 10)/12));
