@@ -28,26 +28,26 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
 var pourcentage = $('.chart').attr('data-percent');
 $('.stats-event .graph-bar').attr('data-value', pourcentage);
 
-// $(function(){
-//   if ($('body').is('#events-show')) {
+$(function(){
+  if ($('body').is('#events-show')) {
 
-//     var collecte = $('.current-amount').html();
-//     $('.stats-event-m-1 span').html(collecte);
-//     console.log(collecte);
+    var collecte = $('.current-amount').html();
+    $('.stats-event-m-1 span').html(collecte);
+    console.log(collecte);
 
-//     var objectif = $('.objectif-amount').html().split('Objectif')[1];
-//     $('.stats-event-m-2 span').html(objectif);
-//     console.log($('.stats-event-m-2 span'));
-//     console.log(objectif);
+    var objectif = $('.objectif-amount').html().split('Objectif')[1];
+    $('.stats-event-m-2 span').html(objectif);
+    console.log($('.stats-event-m-2 span'));
+    console.log(objectif);
 
-//     // calcul de l'obj
-//     $('.objectif-enfants').html(Math.floor(Number.parseInt($('.objectif-amount').html().split('Objectif ')[1].split(' €')[0], 10)/12));
+    // calcul de l'obj
+    $('.objectif-enfants').html(Math.floor(Number.parseInt($('.objectif-amount').html().split('Objectif ')[1].split(' €')[0], 10)/12));
 
-//     // calcul du résultat
-//     if ($('.current-amount').html().split('     ')[1].split(' €')[0].length > 5) {
-//       $('.enfants').html(Math.floor(Number.parseInt($('.current-amount').html().split('     ')[1].split(' €')[0], 10)/12));
-//     } else {
-//       $('.enfants').html(0);
-//     };
-//   }
-// });
+    // calcul du résultat
+    if ($('.current-amount').html().split('     ')[1].split(' €')[0].length > 5) {
+      $('.enfants').html(Math.floor(Number.parseInt($('.current-amount').html().split('     ')[1].split(' €')[0], 10)/12));
+    } else {
+      $('.enfants').html(0);
+    };
+  }
+});
