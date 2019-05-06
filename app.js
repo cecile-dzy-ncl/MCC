@@ -21,7 +21,7 @@ $('.event_60 .section-my-event .row .medium-3').append('<a class="button" href="
 // --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
 
 // ajout du bloc en début de page
-$('#events-show .habillage').prepend('<div class="stats-event"><div class="stats-event-1"><img src="https://cecile-dzy-ncl.github.io/MCC/images/people.svg" alt=""><div class="stats-event-nb"><p>Déjà <span class="enfants" style="font-size: 32px">8</span> enfants sauvés</p><p>Objectif: <span class="objectif-enfants">24</span> enfants</p></div></div><div class="line"></div><div class="stats-event-2"><div class="stats-event-montants"><div class="stats-event-m-1"><span>97 560 €</span> collectés</div><div class="stats-event-m-2">Objectif: <span></span></div></div><div class="progress"><span class="graph-barBack"><span class="graph-bar" data-value="10"></span></span></div></div></div></div>');
+$('#events-show .habillage').prepend('<div class="stats-event"><div class="stats-event-1"><img src="https://cecile-dzy-ncl.github.io/MCC/images/people.svg" alt=""><div class="stats-event-nb"><p>Déjà <span class="enfants" style="font-size: 32px">8</span> enfants sauvés</p><p>Objectif: <span class="objectif-enfants">24</span> enfants</p></div></div><div class="line"></div><div class="stats-event-2"><div class="stats-event-montants"><div class="stats-event-m-1"><span>97 560 €</span> collectés</div><div class="stats-event-m-2">Objectif: <span>100 000 €</span></div></div><div class="progress"><span class="graph-barBack"><span class="graph-bar" data-value="10"></span></span></div></div></div></div>');
 // $('#events-show .event_60 .habillage .stats-event-1 img').src("https://cecile-dzy-ncl.github.io/MCC/images/enfants.svg");
 
 // barre de progression
@@ -35,7 +35,7 @@ $(function(){
     var collecte = $('.current-amount').html();
     $('.stats-event-m-1 span').html(collecte);
 
-    var objectif = $('.objectif-amount').html().split('Objectif')[1].split('  ')[0];
+    var objectif = $('.objectif-amount').html().split('Objectif')[1];
     console.log(objectif);
     $('.stats-event-m-2 span').html(objectif);
     console.log('split');
@@ -59,7 +59,7 @@ $(function(){
     $('.stats-event-m-1 span').html(collecte);
 
     var objectif = $('.objectif-amount').html();
-    $('.stats-event-m-2').html(objectif);
+    $('.stats-event-m-2 span').html(objectif);
 
     // calcul de l'obj
     $('.objectif-enfants').html(Math.floor(Number.parseInt($('.objectif-amount').html().split('Objectif ')[1].split(' €')[0], 10)/12));
