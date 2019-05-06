@@ -37,7 +37,7 @@ $(function(){
     var objectif = $('.objectif-amount').html().split('Objectif')[1].split('  ')[0];
     console.log(objectif);
     // $('.stats-event-m-2').html('Objectif: <span>' + $('.objectif-amount').html().split('Objectif')[1].split('  ')[0] + '</span>');
-    $('.stats-event-m-2').html('Objectif: <span>');
+    $('.stats-event-m-2').html('BLABLA');
     console.log('split');
 
     // calcul de l'obj
