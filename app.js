@@ -21,7 +21,8 @@ $('.event_60 .section-my-event .row .medium-3').append('<a class="button" href="
 // --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
 
 // ajout du bloc en début de page
-$('#events-show .habillage, #events-show .habillage, #events-show  .habillage').prepend('<div class="stats-event"><div class="stats-event-1"><img src="https://cecile-dzy-ncl.github.io/MCC/images/people.svg" alt=""><div class="stats-event-nb"><p>Déjà <span class="enfants" style="font-size: 32px">8</span> enfants sauvés</p><p>Objectif: <span class="objectif-enfants">24</span> enfants</p></div></div><div class="line"></div><div class="stats-event-2"><div class="stats-event-montants"><div class="stats-event-m-1"><span>97 560 €</span> collectés</div><div class="stats-event-m-2"></div></div><div class="progress"><span class="graph-barBack"><span class="graph-bar" data-value="10"></span></span></div></div></div></div>');
+$('#events-show .habillage').prepend('<div class="stats-event"><div class="stats-event-1"><img src="https://cecile-dzy-ncl.github.io/MCC/images/people.svg" alt=""><div class="stats-event-nb"><p>Déjà <span class="enfants" style="font-size: 32px">8</span> enfants sauvés</p><p>Objectif: <span class="objectif-enfants">24</span> enfants</p></div></div><div class="line"></div><div class="stats-event-2"><div class="stats-event-montants"><div class="stats-event-m-1"><span>97 560 €</span> collectés</div><div class="stats-event-m-2"></div></div><div class="progress"><span class="graph-barBack"><span class="graph-bar" data-value="10"></span></span></div></div></div></div>');
+$('#events-show .event_60 .habillage .stats-event-1 img').src("https://cecile-dzy-ncl.github.io/MCC/images/enfants.svg");
 
 // barre de progression
 var pourcentage = $('.chart').attr('data-percent');
@@ -36,8 +37,9 @@ $(function(){
 
     var objectif = $('.objectif-amount').html().split('Objectif')[1].split('  ')[0];
     console.log(objectif);
-    // $('.stats-event-m-2').html('Objectif: <span>' + $('.objectif-amount').html().split('Objectif')[1].split('  ')[0] + '</span>');
-    $('.stats-event-m-2').html('BLABLA');
+    console.log($('.stats-event-m-2'));
+    $('.stats-event-m-2').html('Objectif: <span>' + $('.objectif-amount').html().split('Objectif')[1].split('  ')[0] + '</span>');
+    //$('.stats-event-m-2').html('BLABLA');
     console.log('split');
 
     // calcul de l'obj
