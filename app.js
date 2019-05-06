@@ -48,6 +48,7 @@ $(function(){
     }
   }
 
+
   if($('body').is('#events-show')){
 
     var collecte = $('.current-amount').html();
