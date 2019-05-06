@@ -37,6 +37,17 @@ $(function(){
     var objectif = $('.objectif-amount').html().split('Objectif')[1].split('  ')[0];
     $('.stats-event-m-2').html('Objectif: <span>' + objectif + '</span>');
 
+    // calcul de l'obj
+    $('.objectif-enfants').html(Math.floor(Number.parseInt($('.objectif-amount').html().split('Objectif ')[1].split(' €')[0], 10)/12));
+
+    // calcul du résultat
+    if ($('.current-amount').html().split('     ')[1].split(' €')[0].length > 5) {
+      $('.enfants').html(Math.floor(Number.parseInt($('.current-amount').html().split('     ')[1].split(' €')[0], 10)/12));
+    } else {
+      $('.enfants').html(0);
+    }
+  }
+
   if($('body').is('#events-show')){
 
     var collecte = $('.current-amount').html();
