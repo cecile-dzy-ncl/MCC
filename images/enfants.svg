@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="61px" viewBox="0 0 80 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>2C1A0F17-85D8-4CC1-AC8B-EDA4ABBFEE5B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0.4001 0.1 19.6001 0.1 19.6001 19.2998 0.4001 19.2998"></polygon>
+        <polygon id="path-3" points="1 0.5 1.5 0.5 1.5 1 1 1"></polygon>
+        <polygon id="path-5" points="1 0.5 1.5 0.5 1.5 1 1 1"></polygon>
+        <polygon id="path-7" points="0.1994 0.1 19.4004 0.1 19.4004 19.2998 0.1994 19.2998"></polygon>
+        <polygon id="path-9" points="1 0.5 1.5 0.5 1.5 1 1 1"></polygon>
+        <polygon id="path-11" points="0 0.7001 79.888 0.7001 79.888 41 0 41"></polygon>
+        <polygon id="path-13" points="1 0.5 1.5 0.5 1.5 1 1 1"></polygon>
+    </defs>
+    <g id="iGive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GRANDE_COLLECTE" transform="translate(-215.000000, -554.000000)">
+            <g id="enfants" transform="translate(214.000000, 553.000000)">
+                <g id="Group-3" transform="translate(13.000000, 0.900000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M10.0001,0.0998 C15.3021,0.0998 19.6001,4.3978 19.6001,9.6998 C19.6001,15.0018 15.3021,19.2998 10.0001,19.2998 C4.6981,19.2998 0.4001,15.0018 0.4001,9.6998 C0.4001,4.3978 4.6981,0.0998 10.0001,0.0998" id="Fill-1" fill="#E40520" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-6" transform="translate(0.000000, 60.900000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <path d="" id="Fill-4" fill="#E40520" mask="url(#mask-4)"></path>
+                </g>
+                <g id="Group-9" transform="translate(0.000000, 60.900000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-8"></g>
+                    <path d="" id="Fill-7" fill="#E40520" mask="url(#mask-6)"></path>
+                </g>
+                <g id="Group-12" transform="translate(49.000000, 0.900000)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-11"></g>
+                    <path d="M9.8004,0.0998 C15.1024,0.0998 19.4004,4.3978 19.4004,9.6998 C19.4004,15.0018 15.1024,19.2998 9.8004,19.2998 C4.4974,19.2998 0.1994,15.0018 0.1994,9.6998 C0.1994,4.3978 4.4974,0.0998 9.8004,0.0998" id="Fill-10" fill="#E40520" mask="url(#mask-8)"></path>
+                </g>
+                <g id="Group-15" transform="translate(0.000000, 60.900000)">
+                    <mask id="mask-10" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <g id="Clip-14"></g>
+                    <path d="" id="Fill-13" fill="#E40520" mask="url(#mask-10)"></path>
+                </g>
+                <g id="Group-18" transform="translate(1.000000, 20.900000)">
+                    <mask id="mask-12" fill="white">
+                        <use xlink:href="#path-11"></use>
+                    </mask>
+                    <g id="Clip-17"></g>
+                    <path d="M78.6998,11.9001 L69.8998,3.2001 C68.3008,1.6001 66.0998,0.7001 63.8008,0.7001 L51.6998,0.7001 C49.3998,0.7001 47.1998,1.6001 45.5998,3.2001 L39.8998,9.0001 L34.1998,3.3001 C32.5998,1.7001 30.3998,0.8001 28.0998,0.8001 L15.9998,0.8001 C13.6998,0.8001 11.4998,1.7001 9.8998,3.3001 L1.1998,12.0001 C-0.4002,13.6001 -0.4002,16.3001 1.1998,17.9001 C2.7998,19.6001 5.3998,19.5001 7.0998,17.9001 L12.3998,12.6001 L12.3998,36.8001 C12.3998,39.1001 14.1998,41.0001 16.4998,41.0001 C18.7998,41.0001 20.5998,39.1001 20.5998,36.8001 L20.5998,27.6001 C20.5998,26.9001 21.1998,26.3001 21.8998,26.3001 C22.5998,26.3001 23.1998,26.9001 23.1998,27.6001 L23.1998,36.8001 C23.1998,39.1001 25.0998,41.0001 27.3998,41.0001 C29.6998,41.0001 31.5998,39.1001 31.5998,36.8001 L31.5998,12.5001 L36.8998,17.8001 C37.6998,18.7001 38.7998,19.1001 39.8998,19.1001 C40.9998,19.1001 42.0998,18.7001 42.8998,17.8001 L48.1998,12.5001 L43.0998,30.8001 L48.1998,30.8001 L48.1998,36.8001 C48.1998,39.1001 49.9998,41.0001 52.3008,41.0001 C54.5998,41.0001 56.3998,39.1001 56.3998,36.8001 L56.3998,30.8001 L59.0998,30.8001 L59.0998,36.8001 C59.0998,39.1001 60.8998,41.0001 63.1998,41.0001 C65.4998,41.0001 67.3008,39.1001 67.3008,36.8001 L67.3008,30.8001 L72.4998,30.8001 L67.3998,12.5001 L72.6998,17.8001 C74.3008,19.4001 76.9998,19.5001 78.5998,17.8001 C80.3008,16.2001 80.3008,13.6001 78.6998,11.9001" id="Fill-16" fill="#E40520" mask="url(#mask-12)"></path>
+                </g>
+                <g id="Group-21" transform="translate(0.000000, 60.900000)">
+                    <mask id="mask-14" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <g id="Clip-20"></g>
+                    <path d="" id="Fill-19" fill="#E40520" mask="url(#mask-14)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
