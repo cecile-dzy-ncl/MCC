@@ -1727,6 +1727,11 @@ section.section-projet-details .projet-head .user {
   line-height: 35px;
 }
 
+.section-my-event #btn-don {
+  margin: 0 0 20px 0;
+}
+
+
 
 }
 
