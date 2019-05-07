@@ -1707,7 +1707,25 @@ section.section-projet-details .projet-head .user {
   margin-right: 25%;
 }
 
+#btn-programme {
+  font-size: 15px !important;
+  line-height: 27px;
+  padding: 20px 20px;
+  margin: 0 75px;
+}
 
+#btn-don {
+  font-size: 20px !important;
+  padding: 12px 49px;
+}
+
+#donators-title {
+  margin: 20px 0;
+  color: #000000;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 35px;
+}
 
 
 }
