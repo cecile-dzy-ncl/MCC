@@ -1694,6 +1694,22 @@ section.section-projet-details .projet-head .user {
 }
 
 
+.btn-share-gc {
+  flex-direction: column;
+}
+
+.btn-share-gc img {
+  margin: 20px 0;
+}
+
+.banner-partenaires p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+
+
 }
 
 
