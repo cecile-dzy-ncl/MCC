@@ -1702,6 +1702,10 @@ section.section-projet-details .projet-head .user {
   margin: 20px 0;
 }
 
+.banner-partenaires {
+  height: 100vh;
+}
+
 .banner-partenaires p {
   margin-left: 25%;
   margin-right: 25%;
