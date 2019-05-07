@@ -1703,9 +1703,24 @@ section.section-projet-details .projet-head .user {
 }
 
 .banner-partenaires {
-  height: 100vh;
+  height: 150vh;
 }
 
+.banner-partenaires ul:nth-child(2) {
+  width: 69%;
+  flex-wrap: wrap;
+}
+
+.banner-partenaires li {
+  height: 25%;
+  width: auto;
+  margin: 5%;
+}
+
+.banner-partenaires ul:nth-child(2) li:nth-child(5) {
+  height: 11%;
+  width: 44%;
+}
 .banner-partenaires p {
   margin-left: 25%;
   margin-right: 25%;
