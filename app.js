@@ -57,3 +57,21 @@ $(function(){
     };
   }
 });
+
+
+// COMMENTAIRES DANS LA GRANDE COLLECTE
+
+$(function(){
+  if ($('body').is('#events-show') && $('body').is('.event_60')) {
+
+  $.get('https://mecenat-cardiaque.igive.iraiser.eu/projects/la-grande-collecte-2019-fr', function(response) {
+    console.log(response);
+    console.log('coucou');
+    // var com = response.match(/<title>Relais du Cœur - La Grande Collecte 2019<\/title>/);
+    var com = response.match(/<div id ="list_payment" class="row">\[ ([.*]) \]<\/div>/);
+    console.log(com);
+  });
+
+}});
+
+
