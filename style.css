@@ -1192,9 +1192,9 @@ section.section-my-event aside .donators .people p {
   width: 25%;
 }
 
-.event_60 .section-my-event .row .medium-3 .donators li:nth-child(9), .event_60 .section-my-event .row .medium-3 .donators li:nth-child(10) {
+/*.event_60 .section-my-event .row .medium-3 .donators li:nth-child(9), .event_60 .section-my-event .row .medium-3 .donators li:nth-child(10) {
   display: none;
-}
+}*/
 
 .event_60 .block-share-container {
   display: none;
