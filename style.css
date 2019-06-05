@@ -1186,6 +1186,7 @@ section.section-my-event aside .donators .people p {
 .event_60 .section-my-event .row .medium-3 .donators {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .event_60 .section-my-event .row .medium-3 .donators li {
