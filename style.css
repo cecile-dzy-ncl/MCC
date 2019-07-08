@@ -1159,7 +1159,7 @@ section.section-my-event aside .donators .people p {
 
 /*GRANDE COLLECTE*/
 
-.event_60 .habillage {
+.event_60 .habillage, .event_62 .habillage {
   overflow: hidden;
 }
 
@@ -1172,24 +1172,24 @@ section.section-my-event aside .donators .people p {
   margin: 0 !important;
 }
 
-.event_60 .section-my-event .row .medium-9 {
+.event_60 .section-my-event .row .medium-9, .event_62 .section-my-event .row .medium-9 {
   display: none;
 }
 
-.event_60 .section-my-event .row .medium-3 {
+.event_60 .section-my-event .row .medium-3, .event_62 .section-my-event .row .medium-3 {
   width: 100%;
   max-width: 100%;
   float: none;
   margin: 0 auto;
 }
 
-.event_60 .section-my-event .row .medium-3 .donators {
+.event_60 .section-my-event .row .medium-3 .donators, .event_62 .section-my-event .row .medium-3 .donators {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.event_60 .section-my-event .row .medium-3 .donators li {
+.event_60 .section-my-event .row .medium-3 .donators li, .event_62 .section-my-event .row .medium-3 .donators li {
   width: 25%;
 }
 
@@ -1197,14 +1197,14 @@ section.section-my-event aside .donators .people p {
   display: none;
 }*/
 
-.event_60 .block-share-container {
+.event_60 .block-share-container, .event_62 .block-share-container {
   display: none;
 }
 
-.event_60 .stats-event-m-1 span {
+.event_60 .stats-event-m-1 span, .event_62 .stats-event-m-1 span {
   font-size: 20px;
 }
-.event_60 .stats-event-m-2 span {
+.event_60 .stats-event-m-2 span, .event_62 .stats-event-m-2 span {
   font-size: 32px;
 }
 
