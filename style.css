@@ -1167,7 +1167,7 @@ section.section-my-event aside .donators .people p {
   color: #E40520;
 }
 
-.event_60 #banner_section .row {
+.event_60 #banner_section .row, .event_62 #banner_section .row {
   max-width: 100% !important;
   margin: 0 !important;
 }
