@@ -1329,7 +1329,7 @@ section.section-my-event aside .donators .people p {
   width: auto;
 }
 
-.event_60 .banner-partenaires ul:nth-child(3) li:nth-child(2), .banner-partenaires ul:nth-child(3) li:nth-child(3) {
+.event_60 .banner-partenaires ul:nth-child(3) li:nth-child(2) {
   height: 40%;
   width: auto;
 }
