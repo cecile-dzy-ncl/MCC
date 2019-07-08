@@ -1252,20 +1252,22 @@ section.section-my-event aside .donators .people p {
   margin-bottom: 0;
 }
 
-.event_62 .banner-partenaires {
+/*.event_62 .banner-partenaires {
   min-height: 400px;
-}
+}*/
 
 .banner-partenaires {
   background-color: #F0F0F0;
-  height: 386px;
+  height: auto;
   margin-left: -50%;
   margin-right: -50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding: 20px 0;
 }
+
 .banner-partenaires p {
   color: #6F7880 !important;
   font-size: 19px !important;
@@ -1278,7 +1280,7 @@ section.section-my-event aside .donators .people p {
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
-  height: 40%;
+  height: 150px;
 }
 
 .event_62 .banner-partenaires ul {
