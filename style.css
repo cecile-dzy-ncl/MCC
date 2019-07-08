@@ -1329,8 +1329,19 @@ section.section-my-event aside .donators .people p {
   width: auto;
 }
 
-.banner-programme {
+.event-60 .banner-programme {
   background-image: url(https://relaisducoeur.mecenat-cardiaque.org/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/image24H.png);
+  background-size: cover;
+  height: 229px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -50%;
+  margin-right: -50%;
+}
+
+.event-62 .banner-programme {
+  background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/imagetour.png);
   background-size: cover;
   height: 229px;
   display: flex;
