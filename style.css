@@ -1163,7 +1163,7 @@ section.section-my-event aside .donators .people p {
   overflow: hidden;
 }
 
-.event_60 .stats-event-nb p:nth-child(2) {
+.event_60 .stats-event-nb p:nth-child(2), .event_62 .stats-event-nb p:nth-child(2) {
   color: #E40520;
 }
 
@@ -1243,11 +1243,12 @@ section.section-my-event aside .donators .people p {
   line-height: 49px;
 }
 
-.event_60 #widget-event-end, .event_60 #widget-count-gift, .event_60 .section-my-event .row .medium-3 .main-text-color {
+.event_60 #widget-event-end, .event_60 #widget-count-gift, .event_60 .section-my-event .row .medium-3 .main-text-color,
+.event_62 #widget-event-end, .event_62 #widget-count-gift, .event_62 .section-my-event .row .medium-3 .main-text-color {
   display: none;
 }
 
-.event_60 section.event-head .intro-my-event {
+.event_60 section.event-head .intro-my-event, .event_62 section.event-head .intro-my-event {
   margin-bottom: 0;
 }
 
