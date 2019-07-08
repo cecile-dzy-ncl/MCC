@@ -1252,6 +1252,10 @@ section.section-my-event aside .donators .people p {
   margin-bottom: 0;
 }
 
+.event_62 .banner-partenaires {
+  min-height: 400px;
+}
+
 .banner-partenaires {
   background-color: #F0F0F0;
   height: 386px;
