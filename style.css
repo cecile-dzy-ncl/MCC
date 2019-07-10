@@ -1370,6 +1370,7 @@ section.section-my-event aside .donators .people p {
   align-items: center;
   margin-left: -50%;
   margin-right: -50%;
+  background-position: 0px -308px;
 }
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
