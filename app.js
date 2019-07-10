@@ -26,11 +26,11 @@ $('.event_62 .section-my-event .row .medium-3').append('<a class="button" href="
 $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats-event-1"><img src="https://cecile-dzy-ncl.github.io/MCC/images/people.svg" id="img-stat" alt=""><div class="stats-event-nb"><p>Déjà <span class="enfants" style="font-size: 32px">8</span> enfants sauvés</p><p>Objectif: <span class="objectif-enfants">24</span> enfants</p></div></div><div class="line"></div><div class="stats-event-2"><div class="stats-event-montants"><div class="stats-event-m-1"><span>97 560 €</span> collectés</div><div class="stats-event-m-2">Objectif: <span>100 000 €</span></div></div><div class="progress"><span class="graph-barBack"><span class="graph-bar" data-value="10"></span></span></div></div></div></div>');
 
 // changement image stats pour la campagne 60
-$(function(){
-  if ($('body').is('.event_60')) {
-    $('#img-stat').attr('src','https://cecile-dzy-ncl.github.io/MCC/images/enfants.svg');
-  }
-});
+// $(function(){
+//  if ($('body').is('.event_60')) {
+//    $('#img-stat').attr('src','https://cecile-dzy-ncl.github.io/MCC/images/enfants.svg');
+//  }
+// });
 
 // barre de progression
 var pourcentage = $('.chart').attr('data-percent');
