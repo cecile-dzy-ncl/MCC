@@ -1294,7 +1294,6 @@ section.section-my-event aside .donators .people p {
 .banner-partenaires li {
   height: 55%;
   width: 12%;
-  margin: auto;
   list-style: none;
   display:inline-block;
 }
@@ -1305,8 +1304,7 @@ section.section-my-event aside .donators .people p {
 }
 
 .event_62 .banner-partenaires li img {
-  height: 100%;
-  width: auto;
+  object-fit : contain;
   margin: auto;
   display: block;
 }
@@ -1362,7 +1360,7 @@ section.section-my-event aside .donators .people p {
 }
 
 .event_62 .banner-programme {
-  background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/bannercollectetour.png);
+  background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/TDF-MCC.jpg);
   background-size: cover;
   height: 229px;
   display: flex;
@@ -1370,6 +1368,7 @@ section.section-my-event aside .donators .people p {
   align-items: center;
   margin-left: -50%;
   margin-right: -50%;
+  background-position: 0px -308px;
 }
 
 
