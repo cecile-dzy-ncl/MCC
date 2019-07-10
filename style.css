@@ -1391,6 +1391,10 @@ section.section-my-event aside .donators .people p {
   width: 60%;
 }
 
+.tabs {
+  width: 50% !important;
+  margin: auto;
+}
 
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
 
