@@ -1372,6 +1372,27 @@ section.section-my-event aside .donators .people p {
   margin-right: -50%;
 }
 
+
+/* --- PROFILE --- */
+
+.tabs-content {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+#my-profile .small-9 h1, #my-profile .small-9 p {
+  text-align: left !important;
+}
+
+#my-profile .subhead .small-3 {
+  margin-left: 170px;
+}
+
+#my-profile .subhead .small-9 {
+  width: 60%;
+}
+
+
 /*///////////////////////////////////// RESPONSIVE /////////////////////////////////////*/
 
 @media (max-width: 770px) {
