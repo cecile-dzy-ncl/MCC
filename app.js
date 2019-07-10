@@ -12,8 +12,8 @@ $('.block-share-container').appendTo('.intro-my-event');
 $('.section-home-projects').prepend('<h3>LES COLLECTES EN COURS</h3>');
 
 // AJOUT TITRE "MERCI DONATEURS" - EVENT GRANDE COLLECTE
-$('.event_60 .section-my-event .row .medium-3').prepend('<h3 id="donators-title">MERCI DU FOND DU COEUR<br>DE VOTRE SOUTIEN.</h3>');
-$('.event_62 .section-my-event .row .medium-3').prepend('<h3 id="donators-title">MERCI DU FOND DU COEUR<br>DE VOTRE SOUTIEN.</h3>');
+$('.event_60 .section-my-event .row .medium-3').prepend('<h3 id="donators-title">MERCI DU FOND DU CŒUR<br>DE VOTRE SOUTIEN.</h3>');
+$('.event_62 .section-my-event .row .medium-3').prepend('<h3 id="donators-title">MERCI DU FOND DU CŒUR<br>DE VOTRE SOUTIEN.</h3>');
 
 // AJOUT BOUTON DON SUR BLOC DONATEURS - EVENT GRANDE COLLECTE
 $('.event_60 .section-my-event .row .medium-3').append('<a class="button" href="https://relaisducoeur.mecenat-cardiaque.org/projects/la-grande-collecte-2019-fr/payments/new" id="btn-don">JE DONNE</a>');
