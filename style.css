@@ -1305,8 +1305,7 @@ section.section-my-event aside .donators .people p {
 }
 
 .event_62 .banner-partenaires li img {
-  height: 100%;
-  width: auto;
+  object-fit : contain;
   margin: auto;
   display: block;
 }
