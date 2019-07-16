@@ -1833,6 +1833,14 @@ section.section-projet-details .projet-head .user {
 .section-my-event #btn-don {
   margin: 0 0 20px 0;
 }
+  
+.tabs-content.tab-content {
+    width: 100%;
+}
+
+.bottom-bar {
+    width: 100%;
+}  
 
 
 
