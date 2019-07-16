@@ -1834,6 +1834,10 @@ section.section-projet-details .projet-head .user {
   margin: 0 0 20px 0;
 }
   
+.tabs {
+    width: auto !important;
+ }
+  
 .tabs-content {
     width: 100%;
     padding: 0 20px;
