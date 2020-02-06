@@ -43,7 +43,8 @@ a.logo img {
   padding: 0;
 }
 
-.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, section.project_event_description, section.event-head, section.section-my-event .row, .stats-event, #footer-collecte {
+.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, section.project_event_description, section.event-head, section.section-my-event .row, .stats-event, #
+-collecte {
   max-width: 71.25em;
   margin: 0 auto;
 }
@@ -314,6 +315,7 @@ section.section-projet-details h1 {
 
 .footerc-left img {
   padding: 20px;
+  object-fit: contain;
 }
 
 .footerc-mcc p {
